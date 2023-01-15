@@ -1,0 +1,1428 @@
+Virtual User Script started at: 13.01.2023 0:35:16
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action BuyTicket.
+BuyTicket.c(3): Notify: Transaction "UC4_BuyTicket" started.
+BuyTicket.c(5): Notify: Transaction "open_site" started.
+BuyTicket.c(7): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+BuyTicket.c(7): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+BuyTicket.c(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+BuyTicket.c(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(16): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(16): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(19): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+BuyTicket.c(19): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(22): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+BuyTicket.c(22): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(25): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+BuyTicket.c(25): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(28): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+BuyTicket.c(28): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(44): web_reg_save_param started  	[MsgId: MMSG-26355]
+BuyTicket.c(44): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(49): web_url("WebTours") started  	[MsgId: MMSG-26355]
+BuyTicket.c(49): t=302ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062c0-16e-5f00e14b1ea17"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 366\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=100\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: text/html\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=306ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+BuyTicket.c(49):     <HTML>\n
+BuyTicket.c(49):     <HEAD>\n
+BuyTicket.c(49):     <title>Web Tours</title>\n
+BuyTicket.c(49):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
+BuyTicket.c(49):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
+BuyTicket.c(49):      marginwidth="2"/>\n
+BuyTicket.c(49):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
+BuyTicket.c(49):     ize" marginheight="2" marginwidth="2" />\n
+BuyTicket.c(49):     </frameset>\n
+BuyTicket.c(49):     </HEAD>\n
+BuyTicket.c(49):     </HTML>\n
+BuyTicket.c(49):     \n
+BuyTicket.c(49): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+BuyTicket.c(49): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+BuyTicket.c(49): t=312ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062be-2c6-5f00e14b1b367"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 710\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=100\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: text/html\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=313ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+BuyTicket.c(49):     <!DOCTYPE html>\n
+BuyTicket.c(49):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
+BuyTicket.c(49):     <HEAD></HEAD>\n
+BuyTicket.c(49):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+BuyTicket.c(49):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+BuyTicket.c(49):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+BuyTicket.c(49):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+BuyTicket.c(49):     \t\t\t<tr>\n
+BuyTicket.c(49):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+BuyTicket.c(49):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
+BuyTicket.c(49):      height="45" width="130" align="absmiddle" border="0"/></td>\n
+BuyTicket.c(49):     \t\t\t\t<td align="right"></td>\n
+BuyTicket.c(49):     \t\t\t\t<td></td>\n
+BuyTicket.c(49):     \t\t\t</tr>\n
+BuyTicket.c(49):     \t\t</table>\n
+BuyTicket.c(49):     \t</BODY>\n
+BuyTicket.c(49):     </HTML>
+BuyTicket.c(49): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+BuyTicket.c(49): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+BuyTicket.c(49): t=315ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062d7-259-5f00e14b43579"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 601\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=99\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: image/png\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=315ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+BuyTicket.c(49): t=326ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062e3-105b-5f00e14b55a70"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 4187\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=100\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: image/png\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=327ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+BuyTicket.c(49): t=341ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Set-Cookie: MSO=SID&1673559316; path=/\r\n
+BuyTicket.c(49):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=100\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(49):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=341ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+BuyTicket.c(49):     2ae\r\n
+BuyTicket.c(49): t=341ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49):     0\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=341ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+BuyTicket.c(49):     <!-- \n
+BuyTicket.c(49):      A Session ID has been created and loaded into a cookie called MSO.\n
+BuyTicket.c(49):      Also, the server options have been loaded into the cookie called\n
+BuyTicket.c(49):      MSO as well.  The server options can be set via the Admin page.\n
+BuyTicket.c(49):      --->\n
+BuyTicket.c(49):     \n
+BuyTicket.c(49):     <html>\n
+BuyTicket.c(49):     <title>Web Tours</title>\n
+BuyTicket.c(49):        <!-- Frame Set -->\n
+BuyTicket.c(49):        <frameset cols="160,*" border="1" frameborder="1">\n
+BuyTicket.c(49):           <!-- Navigation Frame -->\n
+BuyTicket.c(49):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+BuyTicket.c(49):                 noresize="noresize" scrolling="auto"/>\n
+BuyTicket.c(49):           <!-- Home Frame -->\n
+BuyTicket.c(49):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+BuyTicket.c(49):                 noresize="noresize" scrolling="auto"/>\n
+BuyTicket.c(49):        </frameset>\n
+BuyTicket.c(49):     </html>\n
+BuyTicket.c(49):     \n
+BuyTicket.c(49):     </body>\n
+BuyTicket.c(49):     </html>
+BuyTicket.c(49): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+BuyTicket.c(49): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+BuyTicket.c(49): t=346ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062bf-551-5f00e14b1cebe"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 1361\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=99\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: text/html\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=347ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+BuyTicket.c(49):     <HTML>\n
+BuyTicket.c(49):     <HEAD>\n
+BuyTicket.c(49):     \t<title>Web Tours</title>\n
+BuyTicket.c(49):     </HEAD>\n
+BuyTicket.c(49):     <style>\n
+BuyTicket.c(49):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(49):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+BuyTicket.c(49):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(49):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(49):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+BuyTicket.c(49):     N: none}\n
+BuyTicket.c(49):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+BuyTicket.c(49):     CORATION: underline}\n
+BuyTicket.c(49):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(49):     </style>\n
+BuyTicket.c(49):     <body bgcolor="#e0e7f1">\n
+BuyTicket.c(49):     <BR/>\n
+BuyTicket.c(49):     <BR/>\n
+BuyTicket.c(49):     <BR/>\n
+BuyTicket.c(49):     <br/>\n
+BuyTicket.c(49):     <table border="0">\n
+BuyTicket.c(49):     <tr><td></td></tr>\n
+BuyTicket.c(49):     <TR><TD></TD></TR>\n
+BuyTicket.c(49):     <TR><TD>\n
+BuyTicket.c(49):     <blockquote>\n
+BuyTicket.c(49):     <H1><b>Web Tours</b></H1>\n
+BuyTicket.c(49):     Welcome to the Web Tours site.\n
+BuyTicket.c(49):     <br/>\n
+BuyTicket.c(49):     To make reservations,please enter your account information to the left.\n
+BuyTicket.c(49):     <br/>\n
+BuyTicket.c(49):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+BuyTicket.c(49):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+BuyTicket.c(49):     <br/>\n
+BuyTicket.c(49):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+BuyTicket.c(49):     tration</b></A> link.\n
+BuyTicket.c(49):     <br/><br/><br/><br/><br/><br/>\n
+BuyTicket.c(49):     <br/><small>\n
+BuyTicket.c(49):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+BuyTicket.c(49):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+BuyTicket.c(49):     </small>\n
+BuyTicket.c(49):     </blockquote></TD>\n
+BuyTicket.c(49):     <TD></TD></TR>\n
+BuyTicket.c(49):     </table>\n
+BuyTicket.c(49):     </body>\n
+BuyTicket.c(49):     </HTML>\n
+BuyTicket.c(49): t=375ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Expires: Wed, 11 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=98\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(49):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=375ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+BuyTicket.c(49):     5d0\r\n
+BuyTicket.c(49): t=375ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49):     0\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=375ms: 1488-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+BuyTicket.c(49):     <!DOCTYPE html\n
+BuyTicket.c(49):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(49):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(49):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(49):     <head>\n
+BuyTicket.c(49):     <title>Web Tours Navigation Bar</title>\n
+BuyTicket.c(49):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(49):     </head>\n
+BuyTicket.c(49):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(49):     <style>\n
+BuyTicket.c(49):     blockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(49):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+BuyTicket.c(49):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(49):     small {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(49):     </style>\n
+BuyTicket.c(49):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+BuyTicket.c(49):     <input type="hidden" name="userSession" value="135565.760712839zQHDVzDpiVzzzzzHtViDipQicQ"
+BuyTicket.c(49):     />\n
+BuyTicket.c(49):     <table border="0"><tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td><small>&nbsp;Username</small></td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td><small>&nbsp;Password</small></td>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(49):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+BuyTicket.c(49):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+BuyTicket.c(49):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+BuyTicket.c(49):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+BuyTicket.c(49):     </form>\n
+BuyTicket.c(49):     \n
+BuyTicket.c(49):     </body>\n
+BuyTicket.c(49):     </html>\n
+BuyTicket.c(49): Notify: Saving Parameter "userSession = 135565.760712839zQHDVzDpiVzzzzzHtViDipQicQ".
+BuyTicket.c(49): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+BuyTicket.c(49): t=378ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+BuyTicket.c(49):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(49):     Date: Thu, 12 Jan 2023 21:35:16 GMT\r\n
+BuyTicket.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(49):     ETag: "10000000062df-2a7-5f00e14b4f4df"\r\n
+BuyTicket.c(49):     Accept-Ranges: bytes\r\n
+BuyTicket.c(49):     Content-Length: 679\r\n
+BuyTicket.c(49):     Keep-Alive: timeout=5, max=98\r\n
+BuyTicket.c(49):     Connection: Keep-Alive\r\n
+BuyTicket.c(49):     Content-Type: image/gif\r\n
+BuyTicket.c(49):     \r\n
+BuyTicket.c(49): t=378ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+BuyTicket.c(49): web_url("WebTours") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(59): web_set_sockets_option started  	[MsgId: MMSG-26355]
+BuyTicket.c(59): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(61): Notify: Transaction "open_site" ended with a "Pass" status (Duration: 0.2971 Wasted Time: 0.0475).
+BuyTicket.c(65): Notify: Transaction "login" started.
+BuyTicket.c(66): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(66): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(66): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(66): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(70): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+BuyTicket.c(70): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(73): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+BuyTicket.c(73): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(76): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+BuyTicket.c(76): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(79): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+BuyTicket.c(79): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(82): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(82): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(85): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+BuyTicket.c(85): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(88): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+BuyTicket.c(88): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(91): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+BuyTicket.c(91): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(94): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+BuyTicket.c(94): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(97): Think time - Waiting 1.00 seconds (according to limit).
+BuyTicket.c(97): lr_think_time: 1.00 seconds (recorded think time was 117.00 seconds).
+BuyTicket.c(99): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+BuyTicket.c(99): Notify: Parameter Substitution: parameter "userSession" =  "135565.760712839zQHDVzDpiVzzzzzHtViDipQicQ"
+BuyTicket.c(99): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(99): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(99): Notify: Next row for parameter password = 1 [table  = password].
+BuyTicket.c(99): Notify: Parameter Substitution: parameter "password" =  "bean"
+BuyTicket.c(99): t=1671ms: 358-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:17 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Expires: 5s\r\n
+BuyTicket.c(99):     Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&add
+BuyTicket.c(99):     ress1&&creditCard&&expDate&%0A; path=/\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=97\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1672ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+BuyTicket.c(99):     1e1\r\n
+BuyTicket.c(99): t=1672ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99):     0\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1672ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+BuyTicket.c(99):     <!--\n
+BuyTicket.c(99):     User password was correct - added a cookie with the user's default\n
+BuyTicket.c(99):     information.  Set the user up to make reservations...\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     --->\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     <html>\n
+BuyTicket.c(99):     <title>Web Tours</title>\n
+BuyTicket.c(99):     <frameset cols="160,*" border=1 frameborder=1>\n
+BuyTicket.c(99):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+BuyTicket.c(99):     ize="noresize" scrolling="auto"/>\n
+BuyTicket.c(99):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+BuyTicket.c(99):     resize" scrolling="auto"/>\n
+BuyTicket.c(99):     </frameset>\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     </body>\n
+BuyTicket.c(99):     </html>
+BuyTicket.c(99): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+BuyTicket.c(99): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+BuyTicket.c(99): t=1703ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:17 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Expires: 5s\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=99\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1704ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+BuyTicket.c(99):     396\r\n
+BuyTicket.c(99): t=1704ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99):     0\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1704ms: 918-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+BuyTicket.c(99):     <!DOCTYPE html\n
+BuyTicket.c(99):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(99):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(99):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(99):     <head>\n
+BuyTicket.c(99):     <title>Welcome to Web Tours</title>\n
+BuyTicket.c(99):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(99):     </head>\n
+BuyTicket.c(99):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(99):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+BuyTicket.c(99):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+BuyTicket.c(99):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+BuyTicket.c(99):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours 
+BuyTicket.c(99):     reservation pages.<BR/>Using the menu to the left, you can search for new flights to book,
+BuyTicket.c(99):      \n
+BuyTicket.c(99):     or review/edit the flights already booked.  Don't forget to sign off when\n
+BuyTicket.c(99):     you're done!\n
+BuyTicket.c(99):     </blockquote>\n
+BuyTicket.c(99):     </body>\n
+BuyTicket.c(99):     </html>
+BuyTicket.c(99): t=1706ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:17 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Expires: Wed, 11 Jan 2023 21:35:18 GMT\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=97\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1706ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+BuyTicket.c(99):     5ca\r\n
+BuyTicket.c(99): t=1706ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99):     0\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1706ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+BuyTicket.c(99):     <!DOCTYPE html\n
+BuyTicket.c(99):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(99):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(99):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(99):     <head>\n
+BuyTicket.c(99):     <title>Web Tours Navigation Bar</title>\n
+BuyTicket.c(99):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(99):     </head>\n
+BuyTicket.c(99):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     <style>\n
+BuyTicket.c(99):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(99):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+BuyTicket.c(99):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(99):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(99):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+BuyTicket.c(99):     N: none}\n
+BuyTicket.c(99):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+BuyTicket.c(99):     CORATION: underline}\n
+BuyTicket.c(99):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(99):     </style>\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     <BR><BR><center>\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+BuyTicket.c(99):     RC="/WebTours/images/flights.gif" \n
+BuyTicket.c(99):     ALT="Search Flights Button"/></A>\n
+BuyTicket.c(99):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+BuyTicket.c(99):     WebTours/images/itinerary.gif" \n
+BuyTicket.c(99):     ALT="Itinerary Button"/></A>\n
+BuyTicket.c(99):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+BuyTicket.c(99):     ours/images/in_home.gif" \n
+BuyTicket.c(99):     ALT="Home Button"/></A>\n
+BuyTicket.c(99):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+BuyTicket.c(99):     es/signoff.gif" \n
+BuyTicket.c(99):     ALT="SignOff Button"/></A></center>\n
+BuyTicket.c(99):     \n
+BuyTicket.c(99):     </body>\n
+BuyTicket.c(99):     </html>\n
+BuyTicket.c(99): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+BuyTicket.c(99): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+BuyTicket.c(99): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+BuyTicket.c(99): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+BuyTicket.c(99): t=1709ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=14)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:18 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(99):     ETag: "10000000062d9-2b0-5f00e14b46457"\r\n
+BuyTicket.c(99):     Accept-Ranges: bytes\r\n
+BuyTicket.c(99):     Content-Length: 688\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=99\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Content-Type: image/gif\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1709ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=14)
+BuyTicket.c(99): t=1709ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=15)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:18 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(99):     ETag: "10000000062e2-2ef-5f00e14b53f19"\r\n
+BuyTicket.c(99):     Accept-Ranges: bytes\r\n
+BuyTicket.c(99):     Content-Length: 751\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=100\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Content-Type: image/gif\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1710ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=15)
+BuyTicket.c(99): t=1716ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=12)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:18 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(99):     ETag: "10000000062d2-2d6-5f00e14b3b0a6"\r\n
+BuyTicket.c(99):     Accept-Ranges: bytes\r\n
+BuyTicket.c(99):     Content-Length: 726\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=96\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Content-Type: image/gif\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1716ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=12)
+BuyTicket.c(99): t=1763ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=13)
+BuyTicket.c(99):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(99):     Date: Thu, 12 Jan 2023 21:35:18 GMT\r\n
+BuyTicket.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(99):     ETag: "10000000062dc-2dd-5f00e14b4ae91"\r\n
+BuyTicket.c(99):     Accept-Ranges: bytes\r\n
+BuyTicket.c(99):     Content-Length: 733\r\n
+BuyTicket.c(99):     Keep-Alive: timeout=5, max=98\r\n
+BuyTicket.c(99):     Connection: Keep-Alive\r\n
+BuyTicket.c(99):     Content-Type: image/gif\r\n
+BuyTicket.c(99):     \r\n
+BuyTicket.c(99): t=1764ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=13)
+BuyTicket.c(99): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(99): web_submit_data("login.pl") was successful, 5779 body bytes, 2030 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(116): Notify: Transaction "login" ended with a "Pass" status (Duration: 1.3363 Think Time: 1.0080 Wasted Time: 0.0039).
+BuyTicket.c(118): Notify: Transaction "Flightts" started.
+BuyTicket.c(120): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(120): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(123): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+BuyTicket.c(123): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(126): Think time - Waiting 1.00 seconds (according to limit).
+BuyTicket.c(126): lr_think_time: 1.00 seconds (recorded think time was 136.00 seconds).
+BuyTicket.c(128): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+BuyTicket.c(128): t=2885ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=95\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2886ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+BuyTicket.c(128):     268\r\n
+BuyTicket.c(128): t=2886ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128):     0\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2886ms: 616-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+BuyTicket.c(128):     <!-- \n
+BuyTicket.c(128):      User has returned to the search page.  Since user has already logged on,\n
+BuyTicket.c(128):      we can give them the menu in the navbar.\n
+BuyTicket.c(128):      --->\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     <html>\n
+BuyTicket.c(128):     <title>Web Tours</title>\n
+BuyTicket.c(128):        <!-- Frame Set -->\n
+BuyTicket.c(128):        <frameset cols="160,*" border="1" frameborder="1">\n
+BuyTicket.c(128):           <!-- Navigation Frame -->\n
+BuyTicket.c(128):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+BuyTicket.c(128):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+BuyTicket.c(128):           <!-- Reservation Frame -->\n
+BuyTicket.c(128):           <frame src="reservations.pl?page=welcome" name="info" \n
+BuyTicket.c(128):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+BuyTicket.c(128):        </frameset>\n
+BuyTicket.c(128):     </html>\n
+BuyTicket.c(128): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+BuyTicket.c(128): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+BuyTicket.c(128): t=2920ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Expires: Wed, 11 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=96\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2920ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+BuyTicket.c(128):     5ca\r\n
+BuyTicket.c(128): t=2920ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128):     0\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2921ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+BuyTicket.c(128):     <!DOCTYPE html\n
+BuyTicket.c(128):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(128):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(128):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(128):     <head>\n
+BuyTicket.c(128):     <title>Web Tours Navigation Bar</title>\n
+BuyTicket.c(128):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(128):     </head>\n
+BuyTicket.c(128):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     <style>\n
+BuyTicket.c(128):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(128):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+BuyTicket.c(128):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(128):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(128):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+BuyTicket.c(128):     N: none}\n
+BuyTicket.c(128):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+BuyTicket.c(128):     CORATION: underline}\n
+BuyTicket.c(128):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(128):     </style>\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     <BR><BR><center>\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+BuyTicket.c(128):     RC="/WebTours/images/in_flights.gif" \n
+BuyTicket.c(128):     ALT="Search Flights Button"/></A>\n
+BuyTicket.c(128):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+BuyTicket.c(128):     WebTours/images/itinerary.gif" \n
+BuyTicket.c(128):     ALT="Itinerary Button"/></A>\n
+BuyTicket.c(128):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+BuyTicket.c(128):     ours/images/home.gif" \n
+BuyTicket.c(128):     ALT="Home Button"/></A>\n
+BuyTicket.c(128):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+BuyTicket.c(128):     es/signoff.gif" \n
+BuyTicket.c(128):     ALT="SignOff Button"/></A></center>\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     </body>\n
+BuyTicket.c(128):     </html>\n
+BuyTicket.c(128): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+BuyTicket.c(128): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(128): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+BuyTicket.c(128): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(128): t=2922ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Expires: Wed, 11 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=97\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2922ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+BuyTicket.c(128):     f84\r\n
+BuyTicket.c(128): t=2923ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128):     112\r\n
+BuyTicket.c(128): t=2923ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128):     0\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2923ms: 4246-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+BuyTicket.c(128):     <!DOCTYPE html\n
+BuyTicket.c(128):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(128):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(128):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(128):     <head>\n
+BuyTicket.c(128):     <title>Flight Selections</title>\n
+BuyTicket.c(128):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(128):     </head>\n
+BuyTicket.c(128):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(128):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+BuyTicket.c(128):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+BuyTicket.c(128):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+BuyTicket.c(128):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+BuyTicket.c(128):     ockquote>\n
+BuyTicket.c(128):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+BuyTicket.c(128):     nsubmit="" name="DestForm">\n
+BuyTicket.c(128):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+BuyTicket.c(128):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+BuyTicket.c(128):     <option selected="selected" value="Denver">Denver</option>\n
+BuyTicket.c(128):     <option value="Frankfurt">Frankfurt</option>\n
+BuyTicket.c(128):     <option value="London">London</option>\n
+BuyTicket.c(128):     <option value="Los Angeles">Los Angeles</option>\n
+BuyTicket.c(128):     <option value="Paris">Paris</option>\n
+BuyTicket.c(128):     <option value="Portland">Portland</option>\n
+BuyTicket.c(128):     <option value="San Francisco">San Francisco</option>\n
+BuyTicket.c(128):     <option value="Seattle">Seattle</option>\n
+BuyTicket.c(128):     <option value="Sydney">Sydney</option>\n
+BuyTicket.c(128):     <option value="Zurich">Zurich</option>\n
+BuyTicket.c(128):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+BuyTicket.c(128):     ate" value="01/14/2023" size="10" maxlength="10" /> \n
+BuyTicket.c(128):     <!-- Departure Date Applet -->\n
+BuyTicket.c(128):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+BuyTicket.c(128):     t=28 BORDER=0>\n
+BuyTicket.c(128):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+BuyTicket.c(128):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+BuyTicket.c(128):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+BuyTicket.c(128):        <PARAM NAME=AutoClose      VALUE=1>\n
+BuyTicket.c(128):        <PARAM NAME=Label          VALUE="...">\n
+BuyTicket.c(128):     </APPLET>\n
+BuyTicket.c(128):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+BuyTicket.c(128):     <option selected="selected" value="Denver">Denver</option>\n
+BuyTicket.c(128):     <option value="Frankfurt">Frankfurt</option>\n
+BuyTicket.c(128):     <option value="London">London</option>\n
+BuyTicket.c(128):     <option value="Los Angeles">Los Angeles</option>\n
+BuyTicket.c(128):     <option value="Paris">Paris</option>\n
+BuyTicket.c(128):     <option value="Portland">Portland</option>\n
+BuyTicket.c(128):     <option value="San Francisco">San Francisco</option>\n
+BuyTicket.c(128):     <option value="Seattle">Seattle</option>\n
+BuyTicket.c(128):     <option value="Sydney">Sydney</option>\n
+BuyTicket.c(128):     <option value="Zurich">Zurich</option>\n
+BuyTicket.c(128):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+BuyTicket.c(128):     " value="01/15/2023" size="10" maxlength="10" /> \n
+BuyTicket.c(128):     <!-- Return Date Applet -->\n
+BuyTicket.c(128):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+BuyTicket.c(128):     t=28 BORDER=0>\n
+BuyTicket.c(128):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+BuyTicket.c(128):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+BuyTicket.c(128):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+BuyTicket.c(128):        <PARAM NAME=AutoClose      VALUE=1>\n
+BuyTicket.c(128):        <PARAM NAME=Label          VALUE="...">\n
+BuyTicket.c(128):     </APPLET>\n
+BuyTicket.c(128):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+BuyTicket.c(128):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+BuyTicket.c(128):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+BuyTicket.c(128):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+BuyTicket.c(128):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+BuyTicket.c(128):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+BuyTicket.c(128):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+BuyTicket.c(128):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+BuyTicket.c(128):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+BuyTicket.c(128):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+BuyTicket.c(128):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+BuyTicket.c(128):     ges/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifi
+BuyTicket.c(128):     elds" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><inp
+BuyTicket.c(128):     ut type="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+BuyTicket.c(128):     </blockquote>\n
+BuyTicket.c(128):     \n
+BuyTicket.c(128):     </body>\n
+BuyTicket.c(128):     </html>\n
+BuyTicket.c(128): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+BuyTicket.c(128): t=2925ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(128):     ETag: "10000000062d6-2b0-5f00e14b41a20"\r\n
+BuyTicket.c(128):     Accept-Ranges: bytes\r\n
+BuyTicket.c(128):     Content-Length: 688\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=98\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Content-Type: image/gif\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2925ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+BuyTicket.c(128): t=2935ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=19)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(128):     ETag: "10000000062d8-2d6-5f00e14b44ce8"\r\n
+BuyTicket.c(128):     Accept-Ranges: bytes\r\n
+BuyTicket.c(128):     Content-Length: 726\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=94\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Content-Type: image/gif\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2935ms: 726-byte response body for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=19)
+BuyTicket.c(128): t=2982ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=21)
+BuyTicket.c(128):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(128):     Date: Thu, 12 Jan 2023 21:35:19 GMT\r\n
+BuyTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(128):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(128):     ETag: "10000000062cf-2f6-5f00e14b36d49"\r\n
+BuyTicket.c(128):     Accept-Ranges: bytes\r\n
+BuyTicket.c(128):     Content-Length: 758\r\n
+BuyTicket.c(128):     Keep-Alive: timeout=5, max=95\r\n
+BuyTicket.c(128):     Connection: Keep-Alive\r\n
+BuyTicket.c(128):     Content-Type: image/gif\r\n
+BuyTicket.c(128):     \r\n
+BuyTicket.c(128): t=2983ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=21)
+BuyTicket.c(128): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(138): Notify: Transaction "Flightts" ended with a "Pass" status (Duration: 1.2030 Think Time: 1.0000 Wasted Time: 0.0034).
+BuyTicket.c(141): Notify: Transaction "ticket" started.
+BuyTicket.c(144): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(144): Notify: Parameter Substitution: parameter "depart" =  "Paris"
+BuyTicket.c(144): Notify: Parameter Substitution: parameter "arrive" =  "Frankfurt"
+BuyTicket.c(144): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(145): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(145): Notify: Parameter Substitution: parameter "arrive" =  "Frankfurt"
+BuyTicket.c(145): Notify: Parameter Substitution: parameter "depart" =  "Paris"
+BuyTicket.c(145): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(147): Think time - Waiting 1.00 seconds (according to limit).
+BuyTicket.c(147): lr_think_time: 1.00 seconds (recorded think time was 4.00 seconds).
+BuyTicket.c(150): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+BuyTicket.c(150): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(153): Think time - Waiting 1.00 seconds (according to limit).
+BuyTicket.c(153): lr_think_time: 1.00 seconds (recorded think time was 45.00 seconds).
+BuyTicket.c(155): web_reg_save_param started  	[MsgId: MMSG-26355]
+BuyTicket.c(155): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(161): web_reg_save_param started  	[MsgId: MMSG-26355]
+BuyTicket.c(161): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(167): web_submit_data("reservations.pl_5") started  	[MsgId: MMSG-26355]
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "depart" =  "Paris"
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "departDate" =  "01/16/2023"
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "arrive" =  "Frankfurt"
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "returnDate" =  "01/18/2023"
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "seatPref" =  "Aisle"
+BuyTicket.c(167): Notify: Parameter Substitution: parameter "seatType" =  "Coach"
+BuyTicket.c(167): t=5179ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+BuyTicket.c(167):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(167):     Date: Thu, 12 Jan 2023 21:35:21 GMT\r\n
+BuyTicket.c(167):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(167):     Expires: Wed, 11 Jan 2023 21:35:21 GMT\r\n
+BuyTicket.c(167):     Keep-Alive: timeout=5, max=93\r\n
+BuyTicket.c(167):     Connection: Keep-Alive\r\n
+BuyTicket.c(167):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(167):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(167):     \r\n
+BuyTicket.c(167): t=5180ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+BuyTicket.c(167):     e06\r\n
+BuyTicket.c(167): t=5181ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+BuyTicket.c(167):     \r\n
+BuyTicket.c(167):     0\r\n
+BuyTicket.c(167):     \r\n
+BuyTicket.c(167): t=5181ms: 3590-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+BuyTicket.c(167):     <!DOCTYPE html\n
+BuyTicket.c(167):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(167):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(167):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(167):     <head>\n
+BuyTicket.c(167):     <title>Flight Selections</title>\n
+BuyTicket.c(167):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(167):     </head>\n
+BuyTicket.c(167):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(167):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+BuyTicket.c(167):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+BuyTicket.c(167):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+BuyTicket.c(167):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+BuyTicket.c(167):     ockquote>\n
+BuyTicket.c(167):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">\n
+BuyTicket.c(167):     \n
+BuyTicket.c(167):     <center>\n
+BuyTicket.c(167):     <!-- From Paris (4) To Frankfurt (1) -->\n
+BuyTicket.c(167):     <table cellspacing="2" border="0" width="50%">\n
+BuyTicket.c(167):     <blockquote>Flight departing from <B>Paris</B> to <B>Frankfurt</B> on <B>01/16/2023</B><BR
+BuyTicket.c(167):     /><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>\n
+BuyTicket.c(167):           \t\t<td align="center"><font color="white"><B>Departure time</B>\n
+BuyTicket.c(167):           \t\t<td align="center"><font color="white"><B>Cost</B>\n
+BuyTicket.c(167):     <tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="
+BuyTicket.c(167):     410;128;01/16/2023" checked="checked" >Blue Sky Air 410<td align="center">8am<td align="ce
+BuyTicket.c(167):     nter">$ 128</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="ou
+BuyTicket.c(167):     tboundFlight" value="411;114;01/16/2023">Blue Sky Air 411<td align="center">1pm<td align="
+BuyTicket.c(167):     center">$ 114</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="
+BuyTicket.c(167):     outboundFlight" value="412;121;01/16/2023">Blue Sky Air 412<td align="center">5pm<td align
+BuyTicket.c(167):     ="center">$ 121</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name
+BuyTicket.c(167):     ="outboundFlight" value="413;105;01/16/2023">Blue Sky Air 413<td align="center">11pm<td al
+BuyTicket.c(167):     ign="center">$ 105</TD></TR></table>\n
+BuyTicket.c(167):     \n
+BuyTicket.c(167):     <P>\n
+BuyTicket.c(167):     <!-- From Frankfurt (1) To Paris (4) -->\n
+BuyTicket.c(167):     <table cellspacing="2" border="0" width="50%">\n
+BuyTicket.c(167):     <blockquote>Flight departing from <B>Frankfurt</B> to <B>Paris</B> on <B>01/18/2023</B><BR
+BuyTicket.c(167):     /><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>\n
+BuyTicket.c(167):           \t\t<td align="center"><font color="white"><B>Departure time</B>\n
+BuyTicket.c(167):           \t\t<td align="center"><font color="white"><B>Cost</B>\n
+BuyTicket.c(167):     <tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="returnFlight" value="14
+BuyTicket.c(167):     0;128;01/18/2023" checked="checked" >Blue Sky Air 140<td align="center">8am<td align="cent
+BuyTicket.c(167):     er">$ 128</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="retu
+BuyTicket.c(167):     rnFlight" value="141;114;01/18/2023">Blue Sky Air 141<td align="center">1pm<td align="cent
+BuyTicket.c(167):     er">$ 114</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="retu
+BuyTicket.c(167):     rnFlight" value="142;121;01/18/2023">Blue Sky Air 142<td align="center">5pm<td align="cent
+BuyTicket.c(167):     er">$ 121</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="retu
+BuyTicket.c(167):     rnFlight" value="143;105;01/18/2023">Blue Sky Air 143<td align="center">11pm<td align="cen
+BuyTicket.c(167):     ter">$ 105</TD></TR></table>\n
+BuyTicket.c(167):     \n
+BuyTicket.c(167):     <input type="hidden" name="numPassengers" value="2"  /><input type="hidden" name="advanceD
+BuyTicket.c(167):     iscount" value="0"  /><input type="hidden" name="seatType" value="Coach"  /><input type="h
+BuyTicket.c(167):     idden" name="seatPref" value="Aisle"  />\n
+BuyTicket.c(167):     <P><center><table width=80% cellspacing=1><tr><td align=center>\n
+BuyTicket.c(167):     <input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0
+BuyTicket.c(167):     " />\n
+BuyTicket.c(167):     <td>&nbsp;<td align=center></table></center></form></center>\n
+BuyTicket.c(167):     </blockquote>\n
+BuyTicket.c(167):     \n
+BuyTicket.c(167):     </body>\n
+BuyTicket.c(167):     </html>
+BuyTicket.c(167): Notify: Saving Parameter "outboundFlight_1 = 410;128;01/16/2023".
+BuyTicket.c(167): Notify: Saving Parameter "outboundFlight_2 = 411;114;01/16/2023".
+BuyTicket.c(167): Notify: Saving Parameter "outboundFlight_3 = 412;121;01/16/2023".
+BuyTicket.c(167): Notify: Saving Parameter "outboundFlight_4 = 413;105;01/16/2023".
+BuyTicket.c(167): Notify: Saving Parameter "returnFlight_1 = 140;128;01/18/2023".
+BuyTicket.c(167): Notify: Saving Parameter "returnFlight_2 = 141;114;01/18/2023".
+BuyTicket.c(167): Notify: Saving Parameter "returnFlight_3 = 142;121;01/18/2023".
+BuyTicket.c(167): Notify: Saving Parameter "returnFlight_4 = 143;105;01/18/2023".
+BuyTicket.c(167): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(167): Registered web_reg_find successful for "Text=<B>Paris</B> to <B>Frankfurt</B>" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(167): Registered web_reg_find successful for "Text=<B>Frankfurt</B> to <B>Paris</B>" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(167): Notify: Saving Parameter "outboundFlight_count = 4".
+BuyTicket.c(167): Notify: Saving Parameter "returnFlight_count = 4".
+BuyTicket.c(167): web_submit_data("reservations.pl_5") was successful, 3590 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(192): Notify: Transaction "ticket" ended with a "Pass" status (Duration: 2,1873 Think Time: 1,9993 Wasted Time: 0,0027).
+BuyTicket.c(194): Think time - Waiting 1,00 seconds (according to limit).
+BuyTicket.c(194): lr_think_time: 1,00 seconds (recorded think time was 47,00 seconds).
+BuyTicket.c(196): Notify: Transaction "from_to" started.
+BuyTicket.c(200): Notify: Parameter Substitution: parameter "outboundFlight_count" =  "4"
+BuyTicket.c(200): Notify: Parameter Substitution: parameter "outboundFlight_3" =  "412;121;01/16/2023"
+BuyTicket.c(200): Notify: Saving Parameter "outboundFlight_random = 412;121;01/16/2023".
+BuyTicket.c(201): Notify: Parameter Substitution: parameter "returnFlight_count" =  "4"
+BuyTicket.c(201): Notify: Parameter Substitution: parameter "returnFlight_1" =  "140;128;01/18/2023"
+BuyTicket.c(201): Notify: Saving Parameter "returnFlight_random = 140;128;01/18/2023".
+BuyTicket.c(203): web_submit_data("reservations.pl_6") started  	[MsgId: MMSG-26355]
+BuyTicket.c(203): Notify: Parameter Substitution: parameter "outboundFlight_random" =  "412;121;01/16/2023"
+BuyTicket.c(203): Notify: Parameter Substitution: parameter "returnFlight_random" =  "140;128;01/18/2023"
+BuyTicket.c(203): Notify: Parameter Substitution: parameter "seatType" =  "Coach"
+BuyTicket.c(203): Notify: Parameter Substitution: parameter "seatPref" =  "Aisle"
+BuyTicket.c(203): t=6319ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=23)
+BuyTicket.c(203):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(203):     Date: Thu, 12 Jan 2023 21:35:22 GMT\r\n
+BuyTicket.c(203):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(203):     Expires: Wed, 11 Jan 2023 21:35:22 GMT\r\n
+BuyTicket.c(203):     Keep-Alive: timeout=5, max=92\r\n
+BuyTicket.c(203):     Connection: Keep-Alive\r\n
+BuyTicket.c(203):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(203):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(203):     \r\n
+BuyTicket.c(203): t=6320ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=23)
+BuyTicket.c(203):     ae2\r\n
+BuyTicket.c(203): t=6320ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=23)
+BuyTicket.c(203):     \r\n
+BuyTicket.c(203):     0\r\n
+BuyTicket.c(203):     \r\n
+BuyTicket.c(203): t=6320ms: 2786-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=23)
+BuyTicket.c(203):     <!DOCTYPE html\n
+BuyTicket.c(203):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(203):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(203):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(203):     <head>\n
+BuyTicket.c(203):     <title>Flight Reservation</title>\n
+BuyTicket.c(203):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(203):     </head>\n
+BuyTicket.c(203):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(203):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+BuyTicket.c(203):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+BuyTicket.c(203):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+BuyTicket.c(203):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Payment Details</font></b></h1
+BuyTicket.c(203):     ><blockquote><form method="post" action="reservations.pl" enctype="application/x-www-form-
+BuyTicket.c(203):     urlencoded" onsubmit="return true ;">\n
+BuyTicket.c(203):     <table><tr><td align="right">First Name : <td><input type="text" name="firstName" value="J
+BuyTicket.c(203):     ojo" size="15" /><tr><td align="right">Last Name : <td><input type="text" name="lastName" 
+BuyTicket.c(203):     value="Bean&#10;" size="15" /><tr><td align="right">Street Address : <td colspan="3"><inpu
+BuyTicket.c(203):     t type="text" name="address1"  size="30" /><tr><td align="right">City/State/Zip : <td cols
+BuyTicket.c(203):     pan="3"><input type="text" name="address2"  size="30" /><tr><td align="right">Passenger Na
+BuyTicket.c(203):     mes : <td colspan="3"><input type="text" name="pass1" value="Jojo Bean&#10;" size="30" /><
+BuyTicket.c(203):     tr><td><td colspan="3"><input type="text" name="pass2"  size="30" /><tr><td height="10"><t
+BuyTicket.c(203):     r><td height="10" align="center" colspan="4">Total for 2 ticket(s) is = $ 498<tr><td align
+BuyTicket.c(203):     ="right">Credit Card : <td><input type="text" name="creditCard"  size="20" maxlength="20" 
+BuyTicket.c(203):     /><td align="right">Exp Date : <td><input type="text" name="expDate" value="&#10;" size="5
+BuyTicket.c(203):     " maxlength="5" /><tr><TD><td colspan="3" align="left"><label><input type="checkbox" name=
+BuyTicket.c(203):     "saveCC" value="on" />Save this Credit Card Information</label><input type="hidden" name="
+BuyTicket.c(203):     oldCCOption" value=""  /></table><input type="hidden" name="numPassengers" value="2"  /><i
+BuyTicket.c(203):     nput type="hidden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" v
+BuyTicket.c(203):     alue="Aisle"  /><input type="hidden" name="outboundFlight" value="412;121;01/16/2023"  /><
+BuyTicket.c(203):     input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="returnF
+BuyTicket.c(203):     light" value="140;128;01/18/2023"  /><input type="hidden" name="JSFormSubmit" value="off" 
+BuyTicket.c(203):      /><center><table width=80% cellspacing=1><tr><td align=center>\n
+BuyTicket.c(203):     <input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" />
+BuyTicket.c(203):     <div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>\n
+BuyTicket.c(203):     <td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="applicati
+BuyTicket.c(203):     on/x-www-form-urlencoded" onsubmit="void(0);">\n
+BuyTicket.c(203):     </form></table></center></blockquote>\n
+BuyTicket.c(203):     </body>\n
+BuyTicket.c(203):     </html>
+BuyTicket.c(203): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(203): web_submit_data("reservations.pl_6") was successful, 2786 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(222): Notify: Transaction "from_to" ended with a "Pass" status (Duration: 0,1090 Wasted Time: 0,0024).
+BuyTicket.c(225): Notify: Transaction "payment_details" started.
+BuyTicket.c(227): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(227): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(228): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(228): Notify: Parameter Substitution: parameter "depart" =  "Paris"
+BuyTicket.c(228): Notify: Parameter Substitution: parameter "arrive" =  "Frankfurt"
+BuyTicket.c(228): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(229): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "generatorName" =  "Friday"
+BuyTicket.c(229): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "generatorPart" =  "y"
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "generatorBlock" =  "a"
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "n"
+BuyTicket.c(229): Notify: Next row for parameter lastName = 1 [table  = lastName].
+BuyTicket.c(229): Notify: Parameter Substitution: parameter "lastName" =  "Addams "
+BuyTicket.c(229): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(234): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+BuyTicket.c(234): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+BuyTicket.c(234): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(236): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(236): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+BuyTicket.c(236): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(238): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+BuyTicket.c(238): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+BuyTicket.c(238): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(240): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+BuyTicket.c(240): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(243): Think time - Waiting 1,00 seconds (according to limit).
+BuyTicket.c(243): lr_think_time: 1,00 seconds (recorded think time was 42,00 seconds).
+BuyTicket.c(245): web_submit_data("reservations.pl_7") started  	[MsgId: MMSG-26355]
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorName" =  "Friday"
+BuyTicket.c(245): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorPart" =  "y"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock" =  "a"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "n"
+BuyTicket.c(245): Notify: Next row for parameter lastName = 1 [table  = lastName].
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "lastName" =  "Addams "
+BuyTicket.c(245): Notify: Next row for parameter address = 1 [table  = address].
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "address" =  "Nevermore"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "expDateYear" =  "91"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "depart" =  "Paris"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorPart" =  "y"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock" =  "a"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "n"
+BuyTicket.c(245): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorPart" =  "y"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock" =  "a"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "n"
+BuyTicket.c(245): Notify: Next row for parameter login = 1 [table  = login].
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "login" =  "jojo"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "creditCardHome" =  "413983421"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "creditCardEnd" =  "09883609"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "expDateMonth" =  "02"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "expDateYear" =  "42"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "seatType" =  "Coach"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "seatPref" =  "Aisle"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "outboundFlight_random" =  "412;121;01/16/2023"
+BuyTicket.c(245): Notify: Parameter Substitution: parameter "returnFlight_random" =  "140;128;01/18/2023"
+BuyTicket.c(245): t=7555ms: 361-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=24)
+BuyTicket.c(245):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(245):     Date: Thu, 12 Jan 2023 21:35:23 GMT\r\n
+BuyTicket.c(245):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(245):     Expires: Wed, 11 Jan 2023 21:35:23 GMT\r\n
+BuyTicket.c(245):     Set-Cookie: MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&B
+BuyTicket.c(245):     ean%0A; path=/\r\n
+BuyTicket.c(245):     Keep-Alive: timeout=5, max=91\r\n
+BuyTicket.c(245):     Connection: Keep-Alive\r\n
+BuyTicket.c(245):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(245):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(245):     \r\n
+BuyTicket.c(245): t=7556ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=24)
+BuyTicket.c(245):     a13\r\n
+BuyTicket.c(245): t=7556ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=24)
+BuyTicket.c(245):     \r\n
+BuyTicket.c(245):     0\r\n
+BuyTicket.c(245):     \r\n
+BuyTicket.c(245): t=7556ms: 2579-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=24)
+BuyTicket.c(245):     <!DOCTYPE html\n
+BuyTicket.c(245):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(245):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(245):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(245):     <head>\n
+BuyTicket.c(245):     <title>Reservation Made!</title>\n
+BuyTicket.c(245):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(245):     </head>\n
+BuyTicket.c(245):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(245):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+BuyTicket.c(245):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+BuyTicket.c(245):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+BuyTicket.c(245):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+BuyTicket.c(245):     uote>\n
+BuyTicket.c(245):     <CENTER>\n
+BuyTicket.c(245):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+BuyTicket.c(245):     <BR/>\n
+BuyTicket.c(245):     <BR/>\n
+BuyTicket.c(245):     <!-- Customer Name header -->\n
+BuyTicket.c(245):     <Table width="85%" border="0" cellspacing="0" >\n
+BuyTicket.c(245):       <TR bgcolor="#5E7884">\n
+BuyTicket.c(245):          <TD colspan="2" align="center">\n
+BuyTicket.c(245):             <font color="white"><b>FridayjojoyanAddams 's Flight Invoice</b></font>\n
+BuyTicket.c(245):          </TD>\n
+BuyTicket.c(245):          <TD width="160" align="right">\n
+BuyTicket.c(245):              <font color="white"><small>Fri Jan 13  0:35:23 2023\n
+BuyTicket.c(245):     </small>\n
+BuyTicket.c(245):          </TD>\n
+BuyTicket.c(245):       </TR>\n
+BuyTicket.c(245):     </Table>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):     <Table width="85%" border="0" cellspacing="1" >\n
+BuyTicket.c(245):     <!-- Flight Item header -->\n
+BuyTicket.c(245):       <TR bgcolor="#EFF2F7">\n
+BuyTicket.c(245):          <TD colspan="2" align="left">\n
+BuyTicket.c(245):              Flights Reservation Requests:\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD align="center">Cost\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):       </TR>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):     <!-- Flight reserved -->\n
+BuyTicket.c(245):     <TR bgcolor="#EFF2F7">\n
+BuyTicket.c(245):         <TD valign="top">1.</TD>\n
+BuyTicket.c(245):         <TD align="left">\n
+BuyTicket.c(245):            <b><u>2 Coach Class tickets from Paris to Frankfurt.</u></b>\n
+BuyTicket.c(245):     <br/>\n
+BuyTicket.c(245):     <center>\n
+BuyTicket.c(245):            <i>\n
+BuyTicket.c(245):               01/16/2023 :  5pm : Flight 412 leaves Paris  for Frankfurt.<br>\n
+BuyTicket.c(245):               01/18/2023 :  8am : Flight 140 leaves Frankfurt  for Paris.<br><br/>\n
+BuyTicket.c(245):            <br/>\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD valign="top">\n
+BuyTicket.c(245):              $498\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):       </TR>\n
+BuyTicket.c(245):     <!-- Total Cost -->\n
+BuyTicket.c(245):       <TR bgcolor="#EFF2F7">\n
+BuyTicket.c(245):         <TD>*\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD > Total Cost\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD>\n
+BuyTicket.c(245):            <b> $498 </b>\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):       </TR>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):       <TR bgcolor="#EFF2F7">\n
+BuyTicket.c(245):         <TD>-\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD >\n
+BuyTicket.c(245):            Total Charged to Credit Card # 41398342109883609\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD>\n
+BuyTicket.c(245):            <b> $498 </b>\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):       </TR>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):       <TR bgcolor="#EFF2F7">\n
+BuyTicket.c(245):         <TD>*\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD >\n
+BuyTicket.c(245):             Credit Account Balance\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):         <TD>\n
+BuyTicket.c(245):            <b> $0.00 </b>\n
+BuyTicket.c(245):         </TD>\n
+BuyTicket.c(245):       </TR></Table>\n
+BuyTicket.c(245):     <BR/>\n
+BuyTicket.c(245):     <Table width="85%" border="0">\n
+BuyTicket.c(245):       <tr>\n
+BuyTicket.c(245):         <td align=right>\n
+BuyTicket.c(245):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+BuyTicket.c(245):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+BuyTicket.c(245):     /></form>    </td>\n
+BuyTicket.c(245):       </tr>\n
+BuyTicket.c(245):     </Table>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):     </Center>\n
+BuyTicket.c(245):     \n
+BuyTicket.c(245):     </body>\n
+BuyTicket.c(245):     </html>
+BuyTicket.c(245): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+BuyTicket.c(245): t=7658ms: 297-byte response headers for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=25)
+BuyTicket.c(245):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(245):     Date: Thu, 12 Jan 2023 21:35:23 GMT\r\n
+BuyTicket.c(245):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(245):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+BuyTicket.c(245):     ETag: "10000000062ce-326-5f00e14b355da"\r\n
+BuyTicket.c(245):     Accept-Ranges: bytes\r\n
+BuyTicket.c(245):     Content-Length: 806\r\n
+BuyTicket.c(245):     Keep-Alive: timeout=5, max=94\r\n
+BuyTicket.c(245):     Connection: Keep-Alive\r\n
+BuyTicket.c(245):     Content-Type: image/gif\r\n
+BuyTicket.c(245):     \r\n
+BuyTicket.c(245): t=7658ms: 806-byte response body for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=25)
+BuyTicket.c(245): Registered web_reg_find successful for "Text=Reservation Requests" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(245): Registered web_reg_find successful for "Text=from Paris to Frankfurt" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(245): Registered web_reg_find successful for "Text=<B>FridayjojoyanAddams 's Flight Invoice</B>" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(245): web_submit_data("reservations.pl_7") was successful, 3385 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(276): Notify: Transaction "payment_details" ended with a "Pass" status (Duration: 1,3119 Think Time: 1,0146 Wasted Time: 0,0025).
+BuyTicket.c(280): Notify: Transaction "invoice" started.
+BuyTicket.c(282): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(282): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(285): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+BuyTicket.c(285): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(288): Think time - Waiting 1,00 seconds (according to limit).
+BuyTicket.c(288): lr_think_time: 1,00 seconds (recorded think time was 19,00 seconds).
+BuyTicket.c(290): web_submit_data("reservations.pl_8") started  	[MsgId: MMSG-26355]
+BuyTicket.c(290): t=8790ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=26)
+BuyTicket.c(290):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(290):     Date: Thu, 12 Jan 2023 21:35:25 GMT\r\n
+BuyTicket.c(290):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(290):     Expires: Wed, 11 Jan 2023 21:35:25 GMT\r\n
+BuyTicket.c(290):     Keep-Alive: timeout=5, max=90\r\n
+BuyTicket.c(290):     Connection: Keep-Alive\r\n
+BuyTicket.c(290):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(290):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(290):     \r\n
+BuyTicket.c(290): t=8790ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=26)
+BuyTicket.c(290):     f84\r\n
+BuyTicket.c(290): t=8790ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=26)
+BuyTicket.c(290):     \r\n
+BuyTicket.c(290):     112\r\n
+BuyTicket.c(290): t=8791ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=26)
+BuyTicket.c(290):     \r\n
+BuyTicket.c(290):     0\r\n
+BuyTicket.c(290):     \r\n
+BuyTicket.c(290): t=8791ms: 4246-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=26)
+BuyTicket.c(290):     <!DOCTYPE html\n
+BuyTicket.c(290):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(290):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(290):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(290):     <head>\n
+BuyTicket.c(290):     <title>Flight Selections</title>\n
+BuyTicket.c(290):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(290):     </head>\n
+BuyTicket.c(290):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(290):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+BuyTicket.c(290):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+BuyTicket.c(290):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+BuyTicket.c(290):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+BuyTicket.c(290):     ockquote>\n
+BuyTicket.c(290):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+BuyTicket.c(290):     nsubmit="" name="DestForm">\n
+BuyTicket.c(290):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+BuyTicket.c(290):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+BuyTicket.c(290):     <option selected="selected" value="Denver">Denver</option>\n
+BuyTicket.c(290):     <option value="Frankfurt">Frankfurt</option>\n
+BuyTicket.c(290):     <option value="London">London</option>\n
+BuyTicket.c(290):     <option value="Los Angeles">Los Angeles</option>\n
+BuyTicket.c(290):     <option value="Paris">Paris</option>\n
+BuyTicket.c(290):     <option value="Portland">Portland</option>\n
+BuyTicket.c(290):     <option value="San Francisco">San Francisco</option>\n
+BuyTicket.c(290):     <option value="Seattle">Seattle</option>\n
+BuyTicket.c(290):     <option value="Sydney">Sydney</option>\n
+BuyTicket.c(290):     <option value="Zurich">Zurich</option>\n
+BuyTicket.c(290):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+BuyTicket.c(290):     ate" value="01/14/2023" size="10" maxlength="10" /> \n
+BuyTicket.c(290):     <!-- Departure Date Applet -->\n
+BuyTicket.c(290):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+BuyTicket.c(290):     t=28 BORDER=0>\n
+BuyTicket.c(290):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+BuyTicket.c(290):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+BuyTicket.c(290):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+BuyTicket.c(290):        <PARAM NAME=AutoClose      VALUE=1>\n
+BuyTicket.c(290):        <PARAM NAME=Label          VALUE="...">\n
+BuyTicket.c(290):     </APPLET>\n
+BuyTicket.c(290):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+BuyTicket.c(290):     <option selected="selected" value="Denver">Denver</option>\n
+BuyTicket.c(290):     <option value="Frankfurt">Frankfurt</option>\n
+BuyTicket.c(290):     <option value="London">London</option>\n
+BuyTicket.c(290):     <option value="Los Angeles">Los Angeles</option>\n
+BuyTicket.c(290):     <option value="Paris">Paris</option>\n
+BuyTicket.c(290):     <option value="Portland">Portland</option>\n
+BuyTicket.c(290):     <option value="San Francisco">San Francisco</option>\n
+BuyTicket.c(290):     <option value="Seattle">Seattle</option>\n
+BuyTicket.c(290):     <option value="Sydney">Sydney</option>\n
+BuyTicket.c(290):     <option value="Zurich">Zurich</option>\n
+BuyTicket.c(290):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+BuyTicket.c(290):     " value="01/15/2023" size="10" maxlength="10" /> \n
+BuyTicket.c(290):     <!-- Return Date Applet -->\n
+BuyTicket.c(290):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+BuyTicket.c(290):     t=28 BORDER=0>\n
+BuyTicket.c(290):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+BuyTicket.c(290):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+BuyTicket.c(290):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+BuyTicket.c(290):        <PARAM NAME=AutoClose      VALUE=1>\n
+BuyTicket.c(290):        <PARAM NAME=Label          VALUE="...">\n
+BuyTicket.c(290):     </APPLET>\n
+BuyTicket.c(290):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+BuyTicket.c(290):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+BuyTicket.c(290):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+BuyTicket.c(290):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+BuyTicket.c(290):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+BuyTicket.c(290):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+BuyTicket.c(290):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+BuyTicket.c(290):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+BuyTicket.c(290):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+BuyTicket.c(290):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+BuyTicket.c(290):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+BuyTicket.c(290):     ges/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifi
+BuyTicket.c(290):     elds" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><inp
+BuyTicket.c(290):     ut type="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+BuyTicket.c(290):     </blockquote>\n
+BuyTicket.c(290):     \n
+BuyTicket.c(290):     </body>\n
+BuyTicket.c(290):     </html>\n
+BuyTicket.c(290): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(290): web_submit_data("reservations.pl_8") was successful, 4246 body bytes, 255 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(303): Notify: Transaction "invoice" ended with a "Pass" status (Duration: 1.1248 Think Time: 0.9998 Wasted Time: 0.0025).
+BuyTicket.c(305): Notify: Transaction "Logout" started.
+BuyTicket.c(307): web_reg_find started  	[MsgId: MMSG-26355]
+BuyTicket.c(307): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BuyTicket.c(309): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+BuyTicket.c(309): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+BuyTicket.c(309): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+BuyTicket.c(311): Think time - Waiting 1.00 seconds (according to limit).
+BuyTicket.c(311): lr_think_time: 1.00 seconds (recorded think time was 185.00 seconds).
+BuyTicket.c(313): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+BuyTicket.c(313): t=9919ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=27)
+BuyTicket.c(313):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(313):     Date: Thu, 12 Jan 2023 21:35:26 GMT\r\n
+BuyTicket.c(313):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(313):     Set-Cookie: MSO=SID&1673559326; path=/\r\n
+BuyTicket.c(313):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:35:26 GMT\r\n
+BuyTicket.c(313):     Keep-Alive: timeout=5, max=89\r\n
+BuyTicket.c(313):     Connection: Keep-Alive\r\n
+BuyTicket.c(313):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(313):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313): t=9920ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=27)
+BuyTicket.c(313):     2ae\r\n
+BuyTicket.c(313): t=9920ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=27)
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313):     0\r\n
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313): t=9920ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=27)
+BuyTicket.c(313):     <!-- \n
+BuyTicket.c(313):      A Session ID has been created and loaded into a cookie called MSO.\n
+BuyTicket.c(313):      Also, the server options have been loaded into the cookie called\n
+BuyTicket.c(313):      MSO as well.  The server options can be set via the Admin page.\n
+BuyTicket.c(313):      --->\n
+BuyTicket.c(313):     \n
+BuyTicket.c(313):     <html>\n
+BuyTicket.c(313):     <title>Web Tours</title>\n
+BuyTicket.c(313):        <!-- Frame Set -->\n
+BuyTicket.c(313):        <frameset cols="160,*" border="1" frameborder="1">\n
+BuyTicket.c(313):           <!-- Navigation Frame -->\n
+BuyTicket.c(313):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+BuyTicket.c(313):                 noresize="noresize" scrolling="auto"/>\n
+BuyTicket.c(313):           <!-- Home Frame -->\n
+BuyTicket.c(313):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+BuyTicket.c(313):                 noresize="noresize" scrolling="auto"/>\n
+BuyTicket.c(313):        </frameset>\n
+BuyTicket.c(313):     </html>\n
+BuyTicket.c(313):     \n
+BuyTicket.c(313):     </body>\n
+BuyTicket.c(313):     </html>
+BuyTicket.c(313): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+BuyTicket.c(313): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+BuyTicket.c(313): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+BuyTicket.c(313): t=9921ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=29)
+BuyTicket.c(313):     <HTML>\n
+BuyTicket.c(313):     <HEAD>\n
+BuyTicket.c(313):     \t<title>Web Tours</title>\n
+BuyTicket.c(313):     </HEAD>\n
+BuyTicket.c(313):     <style>\n
+BuyTicket.c(313):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(313):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+BuyTicket.c(313):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(313):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(313):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+BuyTicket.c(313):     N: none}\n
+BuyTicket.c(313):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+BuyTicket.c(313):     CORATION: underline}\n
+BuyTicket.c(313):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(313):     </style>\n
+BuyTicket.c(313):     <body bgcolor="#e0e7f1">\n
+BuyTicket.c(313):     <BR/>\n
+BuyTicket.c(313):     <BR/>\n
+BuyTicket.c(313):     <BR/>\n
+BuyTicket.c(313):     <br/>\n
+BuyTicket.c(313):     <table border="0">\n
+BuyTicket.c(313):     <tr><td></td></tr>\n
+BuyTicket.c(313):     <TR><TD></TD></TR>\n
+BuyTicket.c(313):     <TR><TD>\n
+BuyTicket.c(313):     <blockquote>\n
+BuyTicket.c(313):     <H1><b>Web Tours</b></H1>\n
+BuyTicket.c(313):     Welcome to the Web Tours site.\n
+BuyTicket.c(313):     <br/>\n
+BuyTicket.c(313):     To make reservations,please enter your account information to the left.\n
+BuyTicket.c(313):     <br/>\n
+BuyTicket.c(313):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+BuyTicket.c(313):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+BuyTicket.c(313):     <br/>\n
+BuyTicket.c(313):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+BuyTicket.c(313):     tration</b></A> link.\n
+BuyTicket.c(313):     <br/><br/><br/><br/><br/><br/>\n
+BuyTicket.c(313):     <br/><small>\n
+BuyTicket.c(313):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+BuyTicket.c(313):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+BuyTicket.c(313):     </small>\n
+BuyTicket.c(313):     </blockquote></TD>\n
+BuyTicket.c(313):     <TD></TD></TR>\n
+BuyTicket.c(313):     </table>\n
+BuyTicket.c(313):     </body>\n
+BuyTicket.c(313):     </HTML>\n
+BuyTicket.c(313): t=9951ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=28)
+BuyTicket.c(313):     HTTP/1.1 200 OK\r\n
+BuyTicket.c(313):     Date: Thu, 12 Jan 2023 21:35:26 GMT\r\n
+BuyTicket.c(313):     Server: Apache/2.2.21 (Win32)\r\n
+BuyTicket.c(313):     Expires: Wed, 11 Jan 2023 21:35:26 GMT\r\n
+BuyTicket.c(313):     Keep-Alive: timeout=5, max=93\r\n
+BuyTicket.c(313):     Connection: Keep-Alive\r\n
+BuyTicket.c(313):     Transfer-Encoding: chunked\r\n
+BuyTicket.c(313):     Content-Type: text/html; charset=ISO-8859-1\r\n
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313): t=9951ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=28)
+BuyTicket.c(313):     5d1\r\n
+BuyTicket.c(313): t=9951ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=28)
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313):     0\r\n
+BuyTicket.c(313):     \r\n
+BuyTicket.c(313): t=9951ms: 1489-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=28)
+BuyTicket.c(313):     <!DOCTYPE html\n
+BuyTicket.c(313):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+BuyTicket.c(313):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+BuyTicket.c(313):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+BuyTicket.c(313):     <head>\n
+BuyTicket.c(313):     <title>Web Tours Navigation Bar</title>\n
+BuyTicket.c(313):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+BuyTicket.c(313):     </head>\n
+BuyTicket.c(313):     <body bgcolor="#E0E7F1">\n
+BuyTicket.c(313):     <style>\n
+BuyTicket.c(313):     blockquote {font-family: tahoma; font-size : 10pt}\n
+BuyTicket.c(313):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+BuyTicket.c(313):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+BuyTicket.c(313):     small {font-family: tahoma; font-size : 8pt}\n
+BuyTicket.c(313):     </style>\n
+BuyTicket.c(313):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+BuyTicket.c(313):     <input type="hidden" name="userSession" value="135565.761522884zQHDVzDpifiDDDDDtViDipQiDVf
+BuyTicket.c(313):     "/>\n
+BuyTicket.c(313):     <table border="0"><tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td><small>&nbsp;Username</small></td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td><small>&nbsp;Password</small></td>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td>&nbsp;</td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td>\n
+BuyTicket.c(313):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+BuyTicket.c(313):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+BuyTicket.c(313):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+BuyTicket.c(313):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+BuyTicket.c(313):     </form>\n
+BuyTicket.c(313):     \n
+BuyTicket.c(313):     </body>\n
+BuyTicket.c(313):     </html>\n
+BuyTicket.c(313): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+BuyTicket.c(313): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+BuyTicket.c(313): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+BuyTicket.c(323): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 1.1407 Think Time: 0.9996 Wasted Time: 0.0027).
+BuyTicket.c(325): Notify: Transaction "UC4_BuyTicket" ended with a "Pass" status (Duration: 9.8672 Think Time: 8.0208 Wasted Time: 0.0676).
+Ending action BuyTicket.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

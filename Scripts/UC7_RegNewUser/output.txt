@@ -1,0 +1,1150 @@
+Virtual User Script started at: 13.01.2023 0:36:08
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action RegNewUser.
+RegNewUser.c(3): Notify: Transaction "UC7_RegNewUser" started.
+RegNewUser.c(5): Notify: Transaction "open_site" started.
+RegNewUser.c(7): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+RegNewUser.c(7): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+RegNewUser.c(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+RegNewUser.c(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(16): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+RegNewUser.c(16): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(19): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+RegNewUser.c(19): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(22): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+RegNewUser.c(22): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(25): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+RegNewUser.c(25): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(28): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+RegNewUser.c(28): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(44): web_reg_save_param started  	[MsgId: MMSG-26355]
+RegNewUser.c(44): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+RegNewUser.c(49): web_reg_find started  	[MsgId: MMSG-26355]
+RegNewUser.c(49): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RegNewUser.c(53): web_url("WebTours") started  	[MsgId: MMSG-26355]
+RegNewUser.c(53): t=327ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062c0-16e-5f00e14b1ea17"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 366\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: text/html\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=333ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+RegNewUser.c(53):     <HTML>\n
+RegNewUser.c(53):     <HEAD>\n
+RegNewUser.c(53):     <title>Web Tours</title>\n
+RegNewUser.c(53):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
+RegNewUser.c(53):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
+RegNewUser.c(53):      marginwidth="2"/>\n
+RegNewUser.c(53):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
+RegNewUser.c(53):     ize" marginheight="2" marginwidth="2" />\n
+RegNewUser.c(53):     </frameset>\n
+RegNewUser.c(53):     </HEAD>\n
+RegNewUser.c(53):     </HTML>\n
+RegNewUser.c(53):     \n
+RegNewUser.c(53): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+RegNewUser.c(53): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+RegNewUser.c(53): t=355ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062be-2c6-5f00e14b1b367"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 710\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: text/html\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=355ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+RegNewUser.c(53):     <!DOCTYPE html>\n
+RegNewUser.c(53):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
+RegNewUser.c(53):     <HEAD></HEAD>\n
+RegNewUser.c(53):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+RegNewUser.c(53):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+RegNewUser.c(53):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+RegNewUser.c(53):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+RegNewUser.c(53):     \t\t\t<tr>\n
+RegNewUser.c(53):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+RegNewUser.c(53):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
+RegNewUser.c(53):      height="45" width="130" align="absmiddle" border="0"/></td>\n
+RegNewUser.c(53):     \t\t\t\t<td align="right"></td>\n
+RegNewUser.c(53):     \t\t\t\t<td></td>\n
+RegNewUser.c(53):     \t\t\t</tr>\n
+RegNewUser.c(53):     \t\t</table>\n
+RegNewUser.c(53):     \t</BODY>\n
+RegNewUser.c(53):     </HTML>
+RegNewUser.c(53): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+RegNewUser.c(53): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+RegNewUser.c(53): t=358ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062d7-259-5f00e14b43579"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 601\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=99\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: image/png\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=358ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+RegNewUser.c(53): t=358ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062e3-105b-5f00e14b55a70"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 4187\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: image/png\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=359ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+RegNewUser.c(53): t=383ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Set-Cookie: MSO=SID&1673559368; path=/\r\n
+RegNewUser.c(53):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(53):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=383ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+RegNewUser.c(53):     2ae\r\n
+RegNewUser.c(53): t=383ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53):     0\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=383ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+RegNewUser.c(53):     <!-- \n
+RegNewUser.c(53):      A Session ID has been created and loaded into a cookie called MSO.\n
+RegNewUser.c(53):      Also, the server options have been loaded into the cookie called\n
+RegNewUser.c(53):      MSO as well.  The server options can be set via the Admin page.\n
+RegNewUser.c(53):      --->\n
+RegNewUser.c(53):     \n
+RegNewUser.c(53):     <html>\n
+RegNewUser.c(53):     <title>Web Tours</title>\n
+RegNewUser.c(53):        <!-- Frame Set -->\n
+RegNewUser.c(53):        <frameset cols="160,*" border="1" frameborder="1">\n
+RegNewUser.c(53):           <!-- Navigation Frame -->\n
+RegNewUser.c(53):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+RegNewUser.c(53):                 noresize="noresize" scrolling="auto"/>\n
+RegNewUser.c(53):           <!-- Home Frame -->\n
+RegNewUser.c(53):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+RegNewUser.c(53):                 noresize="noresize" scrolling="auto"/>\n
+RegNewUser.c(53):        </frameset>\n
+RegNewUser.c(53):     </html>\n
+RegNewUser.c(53):     \n
+RegNewUser.c(53):     </body>\n
+RegNewUser.c(53):     </html>
+RegNewUser.c(53): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+RegNewUser.c(53): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+RegNewUser.c(53): t=389ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062bf-551-5f00e14b1cebe"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 1361\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=99\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: text/html\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=390ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+RegNewUser.c(53):     <HTML>\n
+RegNewUser.c(53):     <HEAD>\n
+RegNewUser.c(53):     \t<title>Web Tours</title>\n
+RegNewUser.c(53):     </HEAD>\n
+RegNewUser.c(53):     <style>\n
+RegNewUser.c(53):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+RegNewUser.c(53):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+RegNewUser.c(53):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+RegNewUser.c(53):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(53):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+RegNewUser.c(53):     N: none}\n
+RegNewUser.c(53):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+RegNewUser.c(53):     CORATION: underline}\n
+RegNewUser.c(53):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(53):     </style>\n
+RegNewUser.c(53):     <body bgcolor="#e0e7f1">\n
+RegNewUser.c(53):     <BR/>\n
+RegNewUser.c(53):     <BR/>\n
+RegNewUser.c(53):     <BR/>\n
+RegNewUser.c(53):     <br/>\n
+RegNewUser.c(53):     <table border="0">\n
+RegNewUser.c(53):     <tr><td></td></tr>\n
+RegNewUser.c(53):     <TR><TD></TD></TR>\n
+RegNewUser.c(53):     <TR><TD>\n
+RegNewUser.c(53):     <blockquote>\n
+RegNewUser.c(53):     <H1><b>Web Tours</b></H1>\n
+RegNewUser.c(53):     Welcome to the Web Tours site.\n
+RegNewUser.c(53):     <br/>\n
+RegNewUser.c(53):     To make reservations,please enter your account information to the left.\n
+RegNewUser.c(53):     <br/>\n
+RegNewUser.c(53):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+RegNewUser.c(53):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+RegNewUser.c(53):     <br/>\n
+RegNewUser.c(53):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+RegNewUser.c(53):     tration</b></A> link.\n
+RegNewUser.c(53):     <br/><br/><br/><br/><br/><br/>\n
+RegNewUser.c(53):     <br/><small>\n
+RegNewUser.c(53):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+RegNewUser.c(53):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+RegNewUser.c(53):     </small>\n
+RegNewUser.c(53):     </blockquote></TD>\n
+RegNewUser.c(53):     <TD></TD></TR>\n
+RegNewUser.c(53):     </table>\n
+RegNewUser.c(53):     </body>\n
+RegNewUser.c(53):     </HTML>\n
+RegNewUser.c(53): t=420ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Expires: Wed, 11 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=98\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(53):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=420ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+RegNewUser.c(53):     5d0\r\n
+RegNewUser.c(53): t=420ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53):     0\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=420ms: 1488-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+RegNewUser.c(53):     <!DOCTYPE html\n
+RegNewUser.c(53):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(53):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(53):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(53):     <head>\n
+RegNewUser.c(53):     <title>Web Tours Navigation Bar</title>\n
+RegNewUser.c(53):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(53):     </head>\n
+RegNewUser.c(53):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(53):     <style>\n
+RegNewUser.c(53):     blockquote {font-family: tahoma; font-size : 10pt}\n
+RegNewUser.c(53):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+RegNewUser.c(53):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(53):     small {font-family: tahoma; font-size : 8pt}\n
+RegNewUser.c(53):     </style>\n
+RegNewUser.c(53):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+RegNewUser.c(53):     <input type="hidden" name="userSession" value="135565.764925071zQHDVztpADDDDDDDtViDipQitc"
+RegNewUser.c(53):     />\n
+RegNewUser.c(53):     <table border="0"><tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td><small>&nbsp;Username</small></td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td><small>&nbsp;Password</small></td>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(53):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+RegNewUser.c(53):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+RegNewUser.c(53):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+RegNewUser.c(53):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+RegNewUser.c(53):     </form>\n
+RegNewUser.c(53):     \n
+RegNewUser.c(53):     </body>\n
+RegNewUser.c(53):     </html>\n
+RegNewUser.c(53): Notify: Saving Parameter "userSession = 135565.764925071zQHDVztpADDDDDDDtViDipQitc".
+RegNewUser.c(53): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+RegNewUser.c(53): t=423ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+RegNewUser.c(53):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(53):     Date: Thu, 12 Jan 2023 21:36:08 GMT\r\n
+RegNewUser.c(53):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(53):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(53):     ETag: "10000000062df-2a7-5f00e14b4f4df"\r\n
+RegNewUser.c(53):     Accept-Ranges: bytes\r\n
+RegNewUser.c(53):     Content-Length: 679\r\n
+RegNewUser.c(53):     Keep-Alive: timeout=5, max=98\r\n
+RegNewUser.c(53):     Connection: Keep-Alive\r\n
+RegNewUser.c(53):     Content-Type: image/gif\r\n
+RegNewUser.c(53):     \r\n
+RegNewUser.c(53): t=423ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+RegNewUser.c(53): Registered web_reg_find successful for "Text=<b>sign up now</b>" (count=1)  	[MsgId: MMSG-26364]
+RegNewUser.c(53): web_url("WebTours") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+RegNewUser.c(63): web_set_sockets_option started  	[MsgId: MMSG-26355]
+RegNewUser.c(63): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(65): Notify: Transaction "open_site" ended with a "Pass" status (Duration: 0.3437 Wasted Time: 0.0568).
+RegNewUser.c(67): Notify: Transaction "reg_new_user" started.
+RegNewUser.c(69): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+RegNewUser.c(69): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(72): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+RegNewUser.c(72): Warning -26590: web_remove/revert_auto_header for "Sec-Fetch-User" had no effect  	[MsgId: MWAR-26590]
+RegNewUser.c(72): web_remove/revert_auto_header("Sec-Fetch-User") highest severity level was "warning"  	[MsgId: MMSG-26391]
+RegNewUser.c(74): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+RegNewUser.c(74): Warning -26590: web_remove/revert_auto_header for "Upgrade-Insecure-Requests" had no effect  	[MsgId: MWAR-26590]
+RegNewUser.c(74): web_remove/revert_auto_header("Upgrade-Insecure-Requests") highest severity level was "warning"  	[MsgId: MMSG-26391]
+RegNewUser.c(76): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+RegNewUser.c(76): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(79): Think time - Waiting 1.00 seconds (according to limit).
+RegNewUser.c(79): lr_think_time: 1.00 seconds (recorded think time was 6.00 seconds).
+RegNewUser.c(81): web_url("sign up now") started  	[MsgId: MMSG-26355]
+RegNewUser.c(81): t=1620ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+RegNewUser.c(81):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(81):     Date: Thu, 12 Jan 2023 21:36:09 GMT\r\n
+RegNewUser.c(81):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(81):     Expires: 5s\r\n
+RegNewUser.c(81):     Keep-Alive: timeout=5, max=97\r\n
+RegNewUser.c(81):     Connection: Keep-Alive\r\n
+RegNewUser.c(81):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(81):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(81):     \r\n
+RegNewUser.c(81): t=1620ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+RegNewUser.c(81):     97d\r\n
+RegNewUser.c(81): t=1621ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+RegNewUser.c(81):     \r\n
+RegNewUser.c(81):     0\r\n
+RegNewUser.c(81):     \r\n
+RegNewUser.c(81): t=1621ms: 2429-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+RegNewUser.c(81):     <!DOCTYPE html\n
+RegNewUser.c(81):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(81):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(81):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(81):     <head>\n
+RegNewUser.c(81):     <title>User Information</title>\n
+RegNewUser.c(81):     <script src="/WebTours/profileValidate.js" type="text/JavaScript"></script>\n
+RegNewUser.c(81):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(81):     </head>\n
+RegNewUser.c(81):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(81):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+RegNewUser.c(81):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+RegNewUser.c(81):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+RegNewUser.c(81):     }</style><BR/><center><H1><b><font color="#003366">Customer Profile</font></b></H1></cente
+RegNewUser.c(81):     r><blockquote><tr><td><B>First time registering? Please complete the form below.</B><BR/>P
+RegNewUser.c(81):     lease choose a username and password combination for your account.<BR/>We'd also like some
+RegNewUser.c(81):      additional contact information for yourself. We'll use it as default shipping and billing
+RegNewUser.c(81):      information when making all your travel arrangements.<P><tr><td align=center><form method
+RegNewUser.c(81):     ="post" action="login.pl" enctype="application/x-www-form-urlencoded" target="info" onsubm
+RegNewUser.c(81):     it>\n
+RegNewUser.c(81):     <table><tr><td align="left"><blockquote>Username : </td> <td align="left"><input type="tex
+RegNewUser.c(81):     t" name="username"  size="20" /></td></tr> <tr><td align="left"><blockquote>Password : </t
+RegNewUser.c(81):     d> <td align="left"><input type="password" name="password"  size="20" /></td></tr> <tr><td
+RegNewUser.c(81):      align="left"><blockquote>Confirm : </td> <td align="left"><input type="password" name="pa
+RegNewUser.c(81):     sswordConfirm"  size="20" /></td></tr> <tr><td> </td></tr> <tr><td align="left"><blockquot
+RegNewUser.c(81):     e>First Name : </td> <td align="left"><input type="text" name="firstName"  size="20" /></t
+RegNewUser.c(81):     d></tr> <tr><td align="left"><blockquote>Last Name : </td> <td align="left"><input type="t
+RegNewUser.c(81):     ext" name="lastName"  size="20" /></td></tr> <tr><td align="left"><blockquote>Street Addre
+RegNewUser.c(81):     ss : </td> <td align="left"><input type="text" name="address1"  size="30" /></td></tr> <tr
+RegNewUser.c(81):     ><td align="left"><blockquote>City/State/Zip : </td> <td align="left"><input type="text" n
+RegNewUser.c(81):     ame="address2"  size="30" /></td></tr> <tr><td align="left">&nbsp;</td> <td align="right">
+RegNewUser.c(81):     &nbsp;</td></tr> <tr><td align="center" colspan="2"><input type="image" name="register" sr
+RegNewUser.c(81):     c="/WebTours/images/button_next.gif" border="0" /></td></tr></table></form></table></block
+RegNewUser.c(81):     quote>\n
+RegNewUser.c(81):     </body>\n
+RegNewUser.c(81):     </html>\n
+RegNewUser.c(81): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+RegNewUser.c(81): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+RegNewUser.c(81): t=1623ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+RegNewUser.c(81):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(81):     Date: Thu, 12 Jan 2023 21:36:09 GMT\r\n
+RegNewUser.c(81):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(81):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(81):     ETag: "10000000062cf-2f6-5f00e14b36d49"\r\n
+RegNewUser.c(81):     Accept-Ranges: bytes\r\n
+RegNewUser.c(81):     Content-Length: 758\r\n
+RegNewUser.c(81):     Keep-Alive: timeout=5, max=99\r\n
+RegNewUser.c(81):     Connection: Keep-Alive\r\n
+RegNewUser.c(81):     Content-Type: image/gif\r\n
+RegNewUser.c(81):     \r\n
+RegNewUser.c(81): t=1624ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+RegNewUser.c(81): t=1641ms: 313-byte response headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+RegNewUser.c(81):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(81):     Date: Thu, 12 Jan 2023 21:36:09 GMT\r\n
+RegNewUser.c(81):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(81):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+RegNewUser.c(81):     ETag: "10000000062c3-2c18-5f00e14b243ef"\r\n
+RegNewUser.c(81):     Accept-Ranges: bytes\r\n
+RegNewUser.c(81):     Content-Length: 11288\r\n
+RegNewUser.c(81):     Keep-Alive: timeout=5, max=97\r\n
+RegNewUser.c(81):     Connection: Keep-Alive\r\n
+RegNewUser.c(81):     Content-Type: application/javascript\r\n
+RegNewUser.c(81):     \r\n
+RegNewUser.c(81): t=1641ms: 11288-byte response body for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+RegNewUser.c(81):     // check for IE3\n
+RegNewUser.c(81):     var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** define and instantiate validation objects\n
+RegNewUser.c(81):     ** the validation object accepts the following parameters:\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     **   realName: name used in the alerts (same as label on the page)\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     **   formEltName: this must be the name of the corresponding\n
+RegNewUser.c(81):     **       HTML form element; make it the same as the object name\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     **   eltType: element type (we have to create this since IE3\n
+RegNewUser.c(81):     **       doesn't support the type property for for elements)\n
+RegNewUser.c(81):     **     text\n
+RegNewUser.c(81):     **     textarea\n
+RegNewUser.c(81):     **     checkbox\n
+RegNewUser.c(81):     **     radio\n
+RegNewUser.c(81):     **     select\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     **   uptoSnuff: function call that's evaluated during validation check\n
+RegNewUser.c(81):     **     isText(str)\n
+RegNewUser.c(81):     **     isSelect(formObj)\n
+RegNewUser.c(81):     **     isRadio(formObj)\n
+RegNewUser.c(81):     **     isCheck(formObj, form, [index of first checkbox in group],\n
+RegNewUser.c(81):     **         [number of checkboxes])\n
+RegNewUser.c(81):     **     isEmail(str)\n
+RegNewUser.c(81):     **     isState(str)\n
+RegNewUser.c(81):     **     isZipCode(str)\n
+RegNewUser.c(81):     **     isPhoneNum(str)\n
+RegNewUser.c(81):     **     isDate(str)\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     **   format: text representation of required format;\n
+RegNewUser.c(81):     **       pass 'null' if no required format;\n
+RegNewUser.c(81):     **       used in alert as an aid to user\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     // object definition\n
+RegNewUser.c(81):     function validation(realName, formEltName, eltType, upToSnuff, format) {\n
+RegNewUser.c(81):       this.realName = realName;\n
+RegNewUser.c(81):       this.formEltName = formEltName;\n
+RegNewUser.c(81):       this.eltType = eltType;\n
+RegNewUser.c(81):       this.upToSnuff = upToSnuff;\n
+RegNewUser.c(81):       this.format = format;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** create a new object for each form element you need to validate\n
+RegNewUser.c(81):     ** for example:\n
+RegNewUser.c(81):     ** var lastName = new validation('last name', 'lastName', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     ** var phoneNum = new validation('phone number', 'phoneNum', 'text', 'isPhoneNum(str)', 'x
+RegNewUser.c(81):     xx-xxx-xxxx');\n
+RegNewUser.c(81):     ** var reason = new validation('reason for reading this', 'reason', 'checkbox', 'isCheck(f
+RegNewUser.c(81):     ormObj, form, 14, 3)', null);\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     // create objects here:\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     var username = new validation('a username', 'username', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     var password = new validation('a password', 'password', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     var passwordC = new validation('a password confirmation', 'passwordConfirm', 'text', 'isTe
+RegNewUser.c(81):     xt(str)', null);\n
+RegNewUser.c(81):     var firstN = new validation('your first name', 'firstName', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     var lastN = new validation('your last name', 'lastName', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     var address = new validation('your address', 'address1', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     var csz = new validation('your City/State/Zip', 'address2', 'text', 'isText(str)', null);\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** Define the elts array:\n
+RegNewUser.c(81):     ** Add a new item to the array for each object you create above\n
+RegNewUser.c(81):     ** Make sure the value of the array element is the same as\n
+RegNewUser.c(81):     ** the name of the object, and that the array elements are listed\n
+RegNewUser.c(81):     ** in the same order the corresponding objects appear in the form\n
+RegNewUser.c(81):     ** (it's more clear to the user that way)\n
+RegNewUser.c(81):     ** for example:\n
+RegNewUser.c(81):     ** var elts = new Array(lastName, phoneNum, reason)\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     var elts = new Array(username, password, passwordC, firstN, lastN, address, csz);\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** The main function keeps track of which fields the user missed\n
+RegNewUser.c(81):     ** or filled in incorrectly, and alerts the user so they can go\n
+RegNewUser.c(81):     ** back and fix what's wrong.\n
+RegNewUser.c(81):     ** Set allAtOnce to true if you want this "validation help" to\n
+RegNewUser.c(81):     ** alert the user to all mistakes at once; set it to false if\n
+RegNewUser.c(81):     ** you want it to show one mistake at a time\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     var allAtOnce = true;\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** change text for alerts here\n
+RegNewUser.c(81):     ** unspecified field (text): "Please include [field name]."\n
+RegNewUser.c(81):     ** unspecified field (other): "Please choose [field name]."\n
+RegNewUser.c(81):     ** invalid text field entries: "[field value] is an invalid [field name]!"\n
+RegNewUser.c(81):     ** help with format: "Use this format: "\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     var beginRequestAlertForText = "Please include ";\n
+RegNewUser.c(81):     var beginRequestAlertGeneric = "Please choose ";\n
+RegNewUser.c(81):     var endRequestAlert = ".";\n
+RegNewUser.c(81):     var beginInvalidAlert = " is an invalid ";\n
+RegNewUser.c(81):     var endInvalidAlert = "!";\n
+RegNewUser.c(81):     var beginFormatAlert = "  Use this format: ";\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** these functions validate the string or form object passed in,\n
+RegNewUser.c(81):     ** and return true or false based on whether the test succeeds or fails\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     ** validate existence of input\n
+RegNewUser.c(81):     **   isText(str): verifies text input or textarea is not empty\n
+RegNewUser.c(81):     **   isSelect(formObj): verifies item from a select menu is chosen\n
+RegNewUser.c(81):     **   isRadio(formObj): verifies one of a group of radio buttons is chosen\n
+RegNewUser.c(81):     **   isCheck(formObj, form, [begin], [num]): verifies at least one\n
+RegNewUser.c(81):     **       of a group of checkboxes is checked\n
+RegNewUser.c(81):     **     for [begin], fill in the index number in the elements array\n
+RegNewUser.c(81):     **         of the first checkbox (remember to start counting from zero)\n
+RegNewUser.c(81):     **     for [num], fill in the number of checkboxes in the group\n
+RegNewUser.c(81):     **\n
+RegNewUser.c(81):     ** validate text in text input or textarea matches pattern\n
+RegNewUser.c(81):     **   isEmail(str): verifies email address (contains "@" and ".")\n
+RegNewUser.c(81):     **   isState(str): verifies U.S. State Code\n
+RegNewUser.c(81):     **   isZipCode(str): verifies zip code of form xxxxx or xxxxx-xxxx\n
+RegNewUser.c(81):     **   isPhoneNum(str): verifies phone number of form xxx-xxx-xxxx\n
+RegNewUser.c(81):     **   isDate(str): verifies date of form mm/dd/yyyy\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isText(str) {\n
+RegNewUser.c(81):       return (str != "");\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isSelect(formObj) {\n
+RegNewUser.c(81):       return (formObj.selectedIndex != 0);\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isRadio(formObj) {\n
+RegNewUser.c(81):       for (j=0; j<formObj.length; j++) {\n
+RegNewUser.c(81):         if (formObj[j].checked) {\n
+RegNewUser.c(81):           return true;\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       return false;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isCheck(formObj, form, begin, num) {\n
+RegNewUser.c(81):       for (j=begin; j<begin+num; j++) {\n
+RegNewUser.c(81):         if (form.elements[j].checked) {\n
+RegNewUser.c(81):           return true;\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       return false;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isEmail(str) {\n
+RegNewUser.c(81):       return ((str != "") && (str.indexOf("@") != -1) && (str.indexOf(".") != -1));\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isState(str) {\n
+RegNewUser.c(81):       str = str.toUpperCase();\n
+RegNewUser.c(81):       return ( (str == "AK") || (str == "AL") || (str == "AR") || (str == "AZ") || (str == "CA
+RegNewUser.c(81):     ") || (str == "CO") || (str == "CT") || (str == "DC") || (str == "DE") || (str == "FL") ||
+RegNewUser.c(81):      (str == "GA") || (str == "HI") || (str == "IA") || (str == "ID") || (str == "IL") || (str
+RegNewUser.c(81):      == "IN") || (str == "KS") || (str == "KY") || (str == "LA") || (str == "MA") || (str == "
+RegNewUser.c(81):     MD") || (str == "ME") || (str == "MI") || (str == "MN") || (str == "MO") || (str == "MS") 
+RegNewUser.c(81):     || (str == "MT") || (str == "NB") || (str == "NC") || (str == "ND") || (str == "NH") || (s
+RegNewUser.c(81):     tr == "NJ") || (str == "NM") || (str == "NV") || (str == "NY") || (str == "OH") || (str ==
+RegNewUser.c(81):      "OK") || (str == "OR") || (str == "PA") || (str == "RI") || (str == "SC") || (str == "SD"
+RegNewUser.c(81):     ) || (str == "TN") || (str == "TX") || (str == "UT") || (str == "VA") || (str == "VT") || 
+RegNewUser.c(81):     (str == "WA") || (str == "WI") || (str == "WV") || (str == "WY") );\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isZipCode(str) {\n
+RegNewUser.c(81):       var l = str.length;\n
+RegNewUser.c(81):       if ((l != 5) && (l != 10)) { return false }\n
+RegNewUser.c(81):       for (j=0; j<l; j++) {\n
+RegNewUser.c(81):         if ((l == 10) && (j == 5)) {\n
+RegNewUser.c(81):           if (str.charAt(j) != "-") { return false }\n
+RegNewUser.c(81):         } else {\n
+RegNewUser.c(81):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       return true;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isPhoneNum(str) {\n
+RegNewUser.c(81):       if (str.length != 12) { return false }\n
+RegNewUser.c(81):       for (j=0; j<str.length; j++) {\n
+RegNewUser.c(81):         if ((j == 3) || (j == 7)) {\n
+RegNewUser.c(81):           if (str.charAt(j) != "-") { return false }\n
+RegNewUser.c(81):         } else {\n
+RegNewUser.c(81):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       return true;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function isDate(str) {\n
+RegNewUser.c(81):       if (str.length != 10) { return false }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):       for (j=0; j<str.length; j++) {\n
+RegNewUser.c(81):         if ((j == 2) || (j == 5)) {\n
+RegNewUser.c(81):           if (str.charAt(j) != "/") { return false }\n
+RegNewUser.c(81):         } else {\n
+RegNewUser.c(81):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):       var month = str.charAt(0) == "0" ? parseInt(str.substring(1,2)) : parseInt(str.substring
+RegNewUser.c(81):     (0,2));\n
+RegNewUser.c(81):       var day = str.charAt(3) == "0" ? parseInt(str.substring(4,5)) : parseInt(str.substring(3
+RegNewUser.c(81):     ,5));\n
+RegNewUser.c(81):       var begin = str.charAt(6) == "0" ? (str.charAt(7) == "0" ? (str.charAt(8) == "0" ? 9 : 8
+RegNewUser.c(81):     ) : 7) : 6;\n
+RegNewUser.c(81):       var year = parseInt(str.substring(begin, 10));\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):       if (day == 0) { return false }\n
+RegNewUser.c(81):       if (month == 0 || month > 12) { return false }\n
+RegNewUser.c(81):       if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 ||
+RegNewUser.c(81):      month == 12) {\n
+RegNewUser.c(81):         if (day > 31) { return false }\n
+RegNewUser.c(81):       } else {\n
+RegNewUser.c(81):         if (month == 4 || month == 6 || month == 9 || month == 11) {\n
+RegNewUser.c(81):           if (day > 30) { return false }\n
+RegNewUser.c(81):         } else {\n
+RegNewUser.c(81):           if (year%4 != 0) {\n
+RegNewUser.c(81):             if (day > 28) { return false }\n
+RegNewUser.c(81):           } else {\n
+RegNewUser.c(81):             if (day > 29) { return false }\n
+RegNewUser.c(81):           }\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       return true;\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     /***************************************************************\n
+RegNewUser.c(81):     ** The validateForm() function validates the form elements\n
+RegNewUser.c(81):     ** previously defined as validation objects and as members of\n
+RegNewUser.c(81):     ** the elts array. We loop through the elts array, testing each\n
+RegNewUser.c(81):     ** element in turn, and alerting the user when they've missed\n
+RegNewUser.c(81):     ** a required field\n
+RegNewUser.c(81):     ***************************************************************/\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):     function validateForm(form) {\n
+RegNewUser.c(81):       var formEltName = "";\n
+RegNewUser.c(81):       var formObj = "";\n
+RegNewUser.c(81):       var str = "";\n
+RegNewUser.c(81):       var realName = "";\n
+RegNewUser.c(81):       var alertText = "";\n
+RegNewUser.c(81):       var firstMissingElt = null;\n
+RegNewUser.c(81):       var hardReturn = "\\r\\n";\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):       for (i=0; i<elts.length; i++) {\n
+RegNewUser.c(81):         formEltName = elts[i].formEltName;\n
+RegNewUser.c(81):         formObj = eval("form." + formEltName);\n
+RegNewUser.c(81):         realName = elts[i].realName;\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):         if (elts[i].eltType == "text") {\n
+RegNewUser.c(81):           str = formObj.value;\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):           if (eval(elts[i].upToSnuff)) continue;\n
+RegNewUser.c(81):     \n
+RegNewUser.c(81):           if (str == "") {\n
+RegNewUser.c(81):             if (allAtOnce) {\n
+RegNewUser.c(81):               alertText += beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+RegNewUser.c(81):     \n
+RegNewUser.c(81):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+RegNewUser.c(81):             } else {\n
+RegNewUser.c(81):               alertText = beginRequestAlertForText + realName + endRequestAlert + hardReturn;\n
+RegNewUser.c(81):               alert(alertText);\n
+RegNewUser.c(81):             }\n
+RegNewUser.c(81):           } else {\n
+RegNewUser.c(81):             if (allAtOnce) {\n
+RegNewUser.c(81):               alertText += str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+RegNewUser.c(81):             } else {\n
+RegNewUser.c(81):               alertText = str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+RegNewUser.c(81):             }\n
+RegNewUser.c(81):             if (elts[i].format != null) {\n
+RegNewUser.c(81):               alertText += beginFormatAlert + elts[i].format + hardReturn;\n
+RegNewUser.c(81):             }\n
+RegNewUser.c(81):             if (allAtOnce) {\n
+RegNewUser.c(81):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+RegNewUser.c(81):             } else {\n
+RegNewUser.c(81):               alert(alertText);\n
+RegNewUser.c(81):             }\n
+RegNewUser.c(81):           }\n
+RegNewUser.c(81):         } else {\n
+RegNewUser.c(81):           if (eval(elts[i].upToSnuff)) continue;\n
+RegNewUser.c(81):           if (allAtOnce) {\n
+RegNewUser.c(81):             alertText += beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+RegNewUser.c(81):             if (firstMissingElt == null) {firstMissingElt = formObj};\n
+RegNewUser.c(81):           } else {\n
+RegNewUser.c(81):             alertText = beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+RegNewUser.c(81):             alert(alertText);\n
+RegNewUser.c(81):           }\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):         if (!isIE3) {\n
+RegNewUser.c(81):           var goToObj = (allAtOnce) ? firstMissingElt : formObj;\n
+RegNewUser.c(81):           if (goToObj.select) goToObj.select();\n
+RegNewUser.c(81):           if (goToObj.focus) goToObj.focus();\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):         if (!allAtOnce) {return false};\n
+RegNewUser.c(81):       }\n
+RegNewUser.c(81):       if (allAtOnce) {\n
+RegNewUser.c(81):         if (alertText != "") {\n
+RegNewUser.c(81):           alert(alertText);\n
+RegNewUser.c(81):           return false;\n
+RegNewUser.c(81):         }\n
+RegNewUser.c(81):       } \n
+RegNewUser.c(81):     //  alert("I am valid!"); //remove this line when you use the code\n
+RegNewUser.c(81):       return true; //change this to return true to make the form submit\n
+RegNewUser.c(81):     }\n
+RegNewUser.c(81): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+RegNewUser.c(91): Notify: Transaction "reg_new_user" ended with a "Pass" status (Duration: 1.1716 Think Time: 0.9998 Wasted Time: 0.0028).
+RegNewUser.c(93): Notify: Transaction "Customer_Profile" started.
+RegNewUser.c(95): web_reg_find started  	[MsgId: MMSG-26355]
+RegNewUser.c(95): Notify: Parameter Substitution: parameter "generatorName" =  "Saturday"
+RegNewUser.c(95): Notify: Parameter Substitution: parameter "generatorPart" =  "t"
+RegNewUser.c(95): Notify: Parameter Substitution: parameter "generatorBlock" =  "d"
+RegNewUser.c(95): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "v"
+RegNewUser.c(95): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RegNewUser.c(100): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+RegNewUser.c(100): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(103): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+RegNewUser.c(103): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(106): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+RegNewUser.c(106): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(109): Think time - Waiting 1.00 seconds (according to limit).
+RegNewUser.c(109): lr_think_time: 1.00 seconds (recorded think time was 77.00 seconds).
+RegNewUser.c(111): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorName" =  "Saturday"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorPart" =  "t"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorBlock" =  "d"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "v"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorName" =  "Saturday"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorPart" =  "t"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorBlock" =  "d"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "generatorBlock_2" =  "v"
+RegNewUser.c(111): Notify: Next row for parameter lastName = 1 [table  = lastName].
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "lastName" =  "Addams "
+RegNewUser.c(111): Notify: Next row for parameter address = 1 [table  = address].
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "address" =  "Nevermore"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "expDateYear" =  "39"
+RegNewUser.c(111): Notify: Parameter Substitution: parameter "depart" =  "Frankfurt"
+RegNewUser.c(111): t=2813ms: 392-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+RegNewUser.c(111):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(111):     Date: Thu, 12 Jan 2023 21:36:10 GMT\r\n
+RegNewUser.c(111):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(111):     Expires: 5s\r\n
+RegNewUser.c(111):     Set-Cookie: MTUserInfo=firstName&Saturdaytdv&address2&Frankfurt&username&Saturdaytdv&hash&
+RegNewUser.c(111):     118&lastName&Addams%20&address1&Nevermore39&creditCard&&expDate&; path=/\r\n
+RegNewUser.c(111):     Keep-Alive: timeout=5, max=96\r\n
+RegNewUser.c(111):     Connection: Keep-Alive\r\n
+RegNewUser.c(111):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(111):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(111):     \r\n
+RegNewUser.c(111): t=2814ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+RegNewUser.c(111):     43c\r\n
+RegNewUser.c(111): t=2814ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+RegNewUser.c(111):     \r\n
+RegNewUser.c(111):     0\r\n
+RegNewUser.c(111):     \r\n
+RegNewUser.c(111): t=2814ms: 1084-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+RegNewUser.c(111):     <!DOCTYPE html\n
+RegNewUser.c(111):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(111):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(111):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(111):     <head>\n
+RegNewUser.c(111):     <title>Welcome to Web Tours</title>\n
+RegNewUser.c(111):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(111):     </head>\n
+RegNewUser.c(111):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(111):     \n
+RegNewUser.c(111):     <br/><br/><br/>\n
+RegNewUser.c(111):     \n
+RegNewUser.c(111):     \n
+RegNewUser.c(111):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+RegNewUser.c(111):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+RegNewUser.c(111):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+RegNewUser.c(111):     black}</style><blockquote>Thank you, <b>Saturdaytdv</b>, for registering and welcome to th
+RegNewUser.c(111):     e Web Tours family.\n
+RegNewUser.c(111):     We hope we can meet all your current and future travel needs.  If you have any questions, 
+RegNewUser.c(111):     feel free \n
+RegNewUser.c(111):     to ask our support staff.   Click below when you're ready to plan your dream trip...<p /><
+RegNewUser.c(111):     center><a href=welcome.pl?page=menus target='body'><img src=/WebTours/images/button_next.g
+RegNewUser.c(111):     if border=0></a></center></blockquote>\n
+RegNewUser.c(111):     </body>\n
+RegNewUser.c(111):     </html>
+RegNewUser.c(111): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+RegNewUser.c(111): Registered web_reg_find successful for "Text=Thank you, <b>Saturdaytdv</b>" (count=1)  	[MsgId: MMSG-26364]
+RegNewUser.c(111): web_submit_data("login.pl") was successful, 1084 body bytes, 392 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+RegNewUser.c(131): Notify: Transaction "Customer_Profile" ended with a "Pass" status (Duration: 1,1419 Think Time: 1,0013 Wasted Time: 0,0026).
+RegNewUser.c(133): Notify: Transaction "Thank" started.
+RegNewUser.c(140): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+RegNewUser.c(140): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+RegNewUser.c(140): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(142): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+RegNewUser.c(142): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+RegNewUser.c(142): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+RegNewUser.c(144): Think time - Waiting 1,00 seconds (according to limit).
+RegNewUser.c(144): lr_think_time: 1,00 seconds (recorded think time was 28,00 seconds).
+RegNewUser.c(146): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+RegNewUser.c(146): t=3931ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:11 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=95\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3932ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+RegNewUser.c(146):     254\r\n
+RegNewUser.c(146): t=3932ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146):     0\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3932ms: 596-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+RegNewUser.c(146):     <!-- \n
+RegNewUser.c(146):      User has returned to the home page.  Since user has already logged on,\n
+RegNewUser.c(146):      we can give them the menu in the navbar.\n
+RegNewUser.c(146):      --->\n
+RegNewUser.c(146):     \n
+RegNewUser.c(146):     <html>\n
+RegNewUser.c(146):     <title>Web Tours</title>\n
+RegNewUser.c(146):        <!-- Frame Set -->\n
+RegNewUser.c(146):        <frameset cols="160,*" border="1" frameborder="1">\n
+RegNewUser.c(146):           <!-- Navigation Frame -->\n
+RegNewUser.c(146):           <frame src="nav.pl?page=menu&in=home" name="navbar" \n
+RegNewUser.c(146):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+RegNewUser.c(146):           <!-- Intro Frame -->\n
+RegNewUser.c(146):           <frame src="login.pl?intro=true" name="info" \n
+RegNewUser.c(146):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+RegNewUser.c(146):        </frameset>\n
+RegNewUser.c(146):     </html>\n
+RegNewUser.c(146): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+RegNewUser.c(146): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+RegNewUser.c(146): t=3962ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:11 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Expires: Wed, 11 Jan 2023 21:36:12 GMT\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=96\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3963ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+RegNewUser.c(146):     5ca\r\n
+RegNewUser.c(146): t=3963ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146):     0\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3963ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+RegNewUser.c(146):     <!DOCTYPE html\n
+RegNewUser.c(146):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(146):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(146):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(146):     <head>\n
+RegNewUser.c(146):     <title>Web Tours Navigation Bar</title>\n
+RegNewUser.c(146):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(146):     </head>\n
+RegNewUser.c(146):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(146):     \n
+RegNewUser.c(146):     <style>\n
+RegNewUser.c(146):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+RegNewUser.c(146):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+RegNewUser.c(146):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+RegNewUser.c(146):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(146):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+RegNewUser.c(146):     N: none}\n
+RegNewUser.c(146):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+RegNewUser.c(146):     CORATION: underline}\n
+RegNewUser.c(146):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(146):     </style>\n
+RegNewUser.c(146):     \n
+RegNewUser.c(146):     <BR><BR><center>\n
+RegNewUser.c(146):     \n
+RegNewUser.c(146):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+RegNewUser.c(146):     RC="/WebTours/images/flights.gif" \n
+RegNewUser.c(146):     ALT="Search Flights Button"/></A>\n
+RegNewUser.c(146):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+RegNewUser.c(146):     WebTours/images/itinerary.gif" \n
+RegNewUser.c(146):     ALT="Itinerary Button"/></A>\n
+RegNewUser.c(146):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+RegNewUser.c(146):     ours/images/in_home.gif" \n
+RegNewUser.c(146):     ALT="Home Button"/></A>\n
+RegNewUser.c(146):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+RegNewUser.c(146):     es/signoff.gif" \n
+RegNewUser.c(146):     ALT="SignOff Button"/></A></center>\n
+RegNewUser.c(146):     \n
+RegNewUser.c(146):     </body>\n
+RegNewUser.c(146):     </html>\n
+RegNewUser.c(146): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+RegNewUser.c(146): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+RegNewUser.c(146): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+RegNewUser.c(146): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+RegNewUser.c(146): t=3966ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=17)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:12 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(146):     ETag: "10000000062dc-2dd-5f00e14b4ae91"\r\n
+RegNewUser.c(146):     Accept-Ranges: bytes\r\n
+RegNewUser.c(146):     Content-Length: 733\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=99\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Content-Type: image/gif\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3967ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=17)
+RegNewUser.c(146): t=3967ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:11 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Expires: 5s\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=98\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3968ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+RegNewUser.c(146):     39d\r\n
+RegNewUser.c(146): t=3968ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146):     0\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3968ms: 925-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+RegNewUser.c(146):     <!DOCTYPE html\n
+RegNewUser.c(146):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(146):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(146):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(146):     <head>\n
+RegNewUser.c(146):     <title>Welcome to Web Tours</title>\n
+RegNewUser.c(146):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(146):     </head>\n
+RegNewUser.c(146):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(146):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+RegNewUser.c(146):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+RegNewUser.c(146):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+RegNewUser.c(146):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>Saturdaytdv</b>, to the Web
+RegNewUser.c(146):      Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights t
+RegNewUser.c(146):     o book, \n
+RegNewUser.c(146):     or review/edit the flights already booked.  Don't forget to sign off when\n
+RegNewUser.c(146):     you're done!\n
+RegNewUser.c(146):     </blockquote>\n
+RegNewUser.c(146):     </body>\n
+RegNewUser.c(146):     </html>
+RegNewUser.c(146): t=3969ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=18)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:12 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(146):     ETag: "10000000062d9-2b0-5f00e14b46457"\r\n
+RegNewUser.c(146):     Accept-Ranges: bytes\r\n
+RegNewUser.c(146):     Content-Length: 688\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Content-Type: image/gif\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3969ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=18)
+RegNewUser.c(146): t=3970ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=19)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:12 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(146):     ETag: "10000000062e2-2ef-5f00e14b53f19"\r\n
+RegNewUser.c(146):     Accept-Ranges: bytes\r\n
+RegNewUser.c(146):     Content-Length: 751\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=100\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Content-Type: image/gif\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3970ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=19)
+RegNewUser.c(146): t=3980ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=16)
+RegNewUser.c(146):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(146):     Date: Thu, 12 Jan 2023 21:36:12 GMT\r\n
+RegNewUser.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(146):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+RegNewUser.c(146):     ETag: "10000000062d2-2d6-5f00e14b3b0a6"\r\n
+RegNewUser.c(146):     Accept-Ranges: bytes\r\n
+RegNewUser.c(146):     Content-Length: 726\r\n
+RegNewUser.c(146):     Keep-Alive: timeout=5, max=94\r\n
+RegNewUser.c(146):     Connection: Keep-Alive\r\n
+RegNewUser.c(146):     Content-Type: image/gif\r\n
+RegNewUser.c(146):     \r\n
+RegNewUser.c(146): t=3980ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=16)
+RegNewUser.c(146): web_url("button_next.gif") was successful, 5901 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+RegNewUser.c(156): Notify: Transaction "Thank" ended with a "Pass" status (Duration: 1,1562 Think Time: 0,9998 Wasted Time: 0,0036).
+RegNewUser.c(158): Notify: Transaction "Logout" started.
+RegNewUser.c(160): web_reg_find started  	[MsgId: MMSG-26355]
+RegNewUser.c(160): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RegNewUser.c(162): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+RegNewUser.c(162): Warning -26590: web_remove/revert_auto_header for "Sec-Fetch-User" had no effect  	[MsgId: MWAR-26590]
+RegNewUser.c(162): web_remove/revert_auto_header("Sec-Fetch-User") highest severity level was "warning"  	[MsgId: MMSG-26391]
+RegNewUser.c(164): Think time - Waiting 1,00 seconds (according to limit).
+RegNewUser.c(164): lr_think_time: 1,00 seconds (recorded think time was 185,00 seconds).
+RegNewUser.c(166): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+RegNewUser.c(166): t=5105ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+RegNewUser.c(166):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(166):     Date: Thu, 12 Jan 2023 21:36:13 GMT\r\n
+RegNewUser.c(166):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(166):     Set-Cookie: MSO=SID&1673559373; path=/\r\n
+RegNewUser.c(166):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:36:13 GMT\r\n
+RegNewUser.c(166):     Keep-Alive: timeout=5, max=93\r\n
+RegNewUser.c(166):     Connection: Keep-Alive\r\n
+RegNewUser.c(166):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(166):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166): t=5106ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+RegNewUser.c(166):     2ae\r\n
+RegNewUser.c(166): t=5107ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166):     0\r\n
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166): t=5107ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+RegNewUser.c(166):     <!-- \n
+RegNewUser.c(166):      A Session ID has been created and loaded into a cookie called MSO.\n
+RegNewUser.c(166):      Also, the server options have been loaded into the cookie called\n
+RegNewUser.c(166):      MSO as well.  The server options can be set via the Admin page.\n
+RegNewUser.c(166):      --->\n
+RegNewUser.c(166):     \n
+RegNewUser.c(166):     <html>\n
+RegNewUser.c(166):     <title>Web Tours</title>\n
+RegNewUser.c(166):        <!-- Frame Set -->\n
+RegNewUser.c(166):        <frameset cols="160,*" border="1" frameborder="1">\n
+RegNewUser.c(166):           <!-- Navigation Frame -->\n
+RegNewUser.c(166):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+RegNewUser.c(166):                 noresize="noresize" scrolling="auto"/>\n
+RegNewUser.c(166):           <!-- Home Frame -->\n
+RegNewUser.c(166):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+RegNewUser.c(166):                 noresize="noresize" scrolling="auto"/>\n
+RegNewUser.c(166):        </frameset>\n
+RegNewUser.c(166):     </html>\n
+RegNewUser.c(166):     \n
+RegNewUser.c(166):     </body>\n
+RegNewUser.c(166):     </html>
+RegNewUser.c(166): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+RegNewUser.c(166): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+RegNewUser.c(166): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+RegNewUser.c(166): t=5107ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=22)
+RegNewUser.c(166):     <HTML>\n
+RegNewUser.c(166):     <HEAD>\n
+RegNewUser.c(166):     \t<title>Web Tours</title>\n
+RegNewUser.c(166):     </HEAD>\n
+RegNewUser.c(166):     <style>\n
+RegNewUser.c(166):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+RegNewUser.c(166):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+RegNewUser.c(166):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+RegNewUser.c(166):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(166):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+RegNewUser.c(166):     N: none}\n
+RegNewUser.c(166):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+RegNewUser.c(166):     CORATION: underline}\n
+RegNewUser.c(166):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(166):     </style>\n
+RegNewUser.c(166):     <body bgcolor="#e0e7f1">\n
+RegNewUser.c(166):     <BR/>\n
+RegNewUser.c(166):     <BR/>\n
+RegNewUser.c(166):     <BR/>\n
+RegNewUser.c(166):     <br/>\n
+RegNewUser.c(166):     <table border="0">\n
+RegNewUser.c(166):     <tr><td></td></tr>\n
+RegNewUser.c(166):     <TR><TD></TD></TR>\n
+RegNewUser.c(166):     <TR><TD>\n
+RegNewUser.c(166):     <blockquote>\n
+RegNewUser.c(166):     <H1><b>Web Tours</b></H1>\n
+RegNewUser.c(166):     Welcome to the Web Tours site.\n
+RegNewUser.c(166):     <br/>\n
+RegNewUser.c(166):     To make reservations,please enter your account information to the left.\n
+RegNewUser.c(166):     <br/>\n
+RegNewUser.c(166):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+RegNewUser.c(166):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+RegNewUser.c(166):     <br/>\n
+RegNewUser.c(166):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+RegNewUser.c(166):     tration</b></A> link.\n
+RegNewUser.c(166):     <br/><br/><br/><br/><br/><br/>\n
+RegNewUser.c(166):     <br/><small>\n
+RegNewUser.c(166):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+RegNewUser.c(166):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+RegNewUser.c(166):     </small>\n
+RegNewUser.c(166):     </blockquote></TD>\n
+RegNewUser.c(166):     <TD></TD></TR>\n
+RegNewUser.c(166):     </table>\n
+RegNewUser.c(166):     </body>\n
+RegNewUser.c(166):     </HTML>\n
+RegNewUser.c(166): t=5138ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+RegNewUser.c(166):     HTTP/1.1 200 OK\r\n
+RegNewUser.c(166):     Date: Thu, 12 Jan 2023 21:36:13 GMT\r\n
+RegNewUser.c(166):     Server: Apache/2.2.21 (Win32)\r\n
+RegNewUser.c(166):     Expires: Wed, 11 Jan 2023 21:36:13 GMT\r\n
+RegNewUser.c(166):     Keep-Alive: timeout=5, max=95\r\n
+RegNewUser.c(166):     Connection: Keep-Alive\r\n
+RegNewUser.c(166):     Transfer-Encoding: chunked\r\n
+RegNewUser.c(166):     Content-Type: text/html; charset=ISO-8859-1\r\n
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166): t=5139ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+RegNewUser.c(166):     5d2\r\n
+RegNewUser.c(166): t=5139ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166):     0\r\n
+RegNewUser.c(166):     \r\n
+RegNewUser.c(166): t=5139ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+RegNewUser.c(166):     <!DOCTYPE html\n
+RegNewUser.c(166):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+RegNewUser.c(166):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+RegNewUser.c(166):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+RegNewUser.c(166):     <head>\n
+RegNewUser.c(166):     <title>Web Tours Navigation Bar</title>\n
+RegNewUser.c(166):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+RegNewUser.c(166):     </head>\n
+RegNewUser.c(166):     <body bgcolor="#E0E7F1">\n
+RegNewUser.c(166):     <style>\n
+RegNewUser.c(166):     blockquote {font-family: tahoma; font-size : 10pt}\n
+RegNewUser.c(166):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+RegNewUser.c(166):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+RegNewUser.c(166):     small {font-family: tahoma; font-size : 8pt}\n
+RegNewUser.c(166):     </style>\n
+RegNewUser.c(166):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+RegNewUser.c(166):     <input type="hidden" name="userSession" value="135565.765330093zQHDVztpAftVzzzHtViDipQitDc
+RegNewUser.c(166):     f"/>\n
+RegNewUser.c(166):     <table border="0"><tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td><small>&nbsp;Username</small></td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td><small>&nbsp;Password</small></td>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td>&nbsp;</td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td>\n
+RegNewUser.c(166):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+RegNewUser.c(166):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+RegNewUser.c(166):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+RegNewUser.c(166):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+RegNewUser.c(166):     </form>\n
+RegNewUser.c(166):     \n
+RegNewUser.c(166):     </body>\n
+RegNewUser.c(166):     </html>\n
+RegNewUser.c(166): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+RegNewUser.c(166): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+RegNewUser.c(166): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+RegNewUser.c(176): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 1,1406 Think Time: 1,0001 Wasted Time: 0,0027).
+RegNewUser.c(178): Notify: Transaction "UC7_RegNewUser" ended with a "Pass" status (Duration: 5,0479 Think Time: 4,0010 Wasted Time: 0,0684).
+Ending action RegNewUser.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

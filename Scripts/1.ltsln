@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0-trunk
+Project("44B96B5C-62E9-4B8D-A833-41FA7C63DABC") = "UC7_RegNewUser", "UC7_RegNewUser\UC7_RegNewUser.usr", "44B96B5C-62E9-4B8D-A833-41FA7C63DABC"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzdfUmVnTmV3VXNlclxVQzdfUmVnTmV3VXNlci51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+VUM3X1JlZ05ld1VzZXIudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMS4wNTg3MTIrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("8C8C442B-9819-4F0E-A42B-C55C5E015E07") = "UC6_BuyTicketRemoval", "UC6_BuyTicketRemoval\UC6_BuyTicketRemoval.usr", "8C8C442B-9819-4F0E-A42B-C55C5E015E07"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzZfQnV5VGlja2V0UmVtb3ZhbFxVQzZfQnV5VGlja2V0UmVtb3ZhbC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+VUM2X0J1eVRpY2tldFJlbW92YWwudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi4wMzIzMDU1KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("71BD9113-7DBB-4AB6-B3E2-FC31001D603C") = "UC5_Itinerary", "UC5_Itinerary\UC5_Itinerary.usr", "71BD9113-7DBB-4AB6-B3E2-FC31001D603C"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzVfSXRpbmVyYXJ5XFVDNV9JdGluZXJhcnkudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPlVDNV9JdGluZXJhcnkudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi4xNjQxMTY0KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("1F950CD8-9699-4D73-9700-F8B8C02F2AAD") = "UC4_BuyTicket", "UC4_BuyTicket\UC4_BuyTicket.usr", "1F950CD8-9699-4D73-9700-F8B8C02F2AAD"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzRfQnV5VGlja2V0XFVDNF9CdXlUaWNrZXQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPlVDNF9CdXlUaWNrZXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi4zMjMxMTY5KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB") = "UC3_BuyTicketNoPay", "UC3_BuyTicketNoPay\UC3_BuyTicketNoPay.usr", "EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzNfQnV5VGlja2V0Tm9QYXlcVUMzX0J1eVRpY2tldE5vUGF5LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5VQzNfQnV5VGlja2V0Tm9QYXkudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi40ODgxMTY2KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("12EAF564-A498-47FC-B332-2A0C6EEB648C") = "UC2_LoginLogout", "UC2_LoginLogout\UC2_LoginLogout.usr", "12EAF564-A498-47FC-B332-2A0C6EEB648C"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzJfTG9naW5Mb2dvdXRcVUMyX0xvZ2luTG9nb3V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5VQzJfTG9naW5Mb2dvdXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi42MjA3NTA5KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("F0BECDFD-6E61-4A27-9386-5B19C073D270") = "UC1_BuyTiket", "UC1_BuyTiket\UC1_BuyTiket.usr", "F0BECDFD-6E61-4A27-9386-5B19C073D270"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFuZHJleVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xVQzFfQnV5VGlrZXRcVUMxX0J1eVRpa2V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5VQzFfQnV5VGlrZXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wMS0xMVQwMDozODoxMi43NTk3NDg0KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		44B96B5C-62E9-4B8D-A833-41FA7C63DABC.Debug|Any CPU.Build.0 = Debug|Any CPU
+		44B96B5C-62E9-4B8D-A833-41FA7C63DABC.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		44B96B5C-62E9-4B8D-A833-41FA7C63DABC.Release|Any CPU.Build.0 = Release|Any CPU
+		44B96B5C-62E9-4B8D-A833-41FA7C63DABC.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8C8C442B-9819-4F0E-A42B-C55C5E015E07.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8C8C442B-9819-4F0E-A42B-C55C5E015E07.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8C8C442B-9819-4F0E-A42B-C55C5E015E07.Release|Any CPU.Build.0 = Release|Any CPU
+		8C8C442B-9819-4F0E-A42B-C55C5E015E07.Release|Any CPU.ActiveCfg = Release|Any CPU
+		71BD9113-7DBB-4AB6-B3E2-FC31001D603C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		71BD9113-7DBB-4AB6-B3E2-FC31001D603C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		71BD9113-7DBB-4AB6-B3E2-FC31001D603C.Release|Any CPU.Build.0 = Release|Any CPU
+		71BD9113-7DBB-4AB6-B3E2-FC31001D603C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1F950CD8-9699-4D73-9700-F8B8C02F2AAD.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1F950CD8-9699-4D73-9700-F8B8C02F2AAD.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1F950CD8-9699-4D73-9700-F8B8C02F2AAD.Release|Any CPU.Build.0 = Release|Any CPU
+		1F950CD8-9699-4D73-9700-F8B8C02F2AAD.Release|Any CPU.ActiveCfg = Release|Any CPU
+		EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB.Release|Any CPU.Build.0 = Release|Any CPU
+		EBCD490D-9CD8-40B9-9C84-A861EB6DD5BB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		12EAF564-A498-47FC-B332-2A0C6EEB648C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		12EAF564-A498-47FC-B332-2A0C6EEB648C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		12EAF564-A498-47FC-B332-2A0C6EEB648C.Release|Any CPU.Build.0 = Release|Any CPU
+		12EAF564-A498-47FC-B332-2A0C6EEB648C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F0BECDFD-6E61-4A27-9386-5B19C073D270.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F0BECDFD-6E61-4A27-9386-5B19C073D270.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F0BECDFD-6E61-4A27-9386-5B19C073D270.Release|Any CPU.Build.0 = Release|Any CPU
+		F0BECDFD-6E61-4A27-9386-5B19C073D270.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+[t114]
+FileName1=t114_%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0%2C_%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0.json
+URL1=https://ru.wikipedia.org/api/rest_v1/page/summary/%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0%2C_%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_114.xml
+FileName2=t114_393px-Jenna_Ortega_2022.jpeg
+URL2=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jenna_Ortega_2022.jpg/393px-Jenna_Ortega_2022.jpg

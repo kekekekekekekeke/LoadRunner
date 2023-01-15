@@ -1,0 +1,6 @@
+[t237]
+FileName1=t237_%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0%2C_%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0.json
+URL1=https://ru.wikipedia.org/api/rest_v1/page/summary/%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0%2C_%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_237.xml

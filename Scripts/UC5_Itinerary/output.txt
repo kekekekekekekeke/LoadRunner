@@ -1,0 +1,3165 @@
+Virtual User Script started at: 13.01.2023 0:35:33
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Itinerary.
+Itinerary.c(3): Notify: Transaction "UC5_Itinerary" started.
+Itinerary.c(5): Notify: Transaction "open_site" started.
+Itinerary.c(7): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Itinerary.c(7): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Itinerary.c(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Itinerary.c(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(16): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Itinerary.c(16): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(19): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Itinerary.c(19): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(22): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Itinerary.c(22): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(25): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Itinerary.c(25): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(28): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Itinerary.c(28): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(44): web_reg_save_param started  	[MsgId: MMSG-26355]
+Itinerary.c(44): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Itinerary.c(49): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Itinerary.c(49): t=306ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062c0-16e-5f00e14b1ea17"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 366\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=100\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: text/html\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=310ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+Itinerary.c(49):     <HTML>\n
+Itinerary.c(49):     <HEAD>\n
+Itinerary.c(49):     <title>Web Tours</title>\n
+Itinerary.c(49):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
+Itinerary.c(49):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
+Itinerary.c(49):      marginwidth="2"/>\n
+Itinerary.c(49):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
+Itinerary.c(49):     ize" marginheight="2" marginwidth="2" />\n
+Itinerary.c(49):     </frameset>\n
+Itinerary.c(49):     </HEAD>\n
+Itinerary.c(49):     </HTML>\n
+Itinerary.c(49):     \n
+Itinerary.c(49): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Itinerary.c(49): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Itinerary.c(49): t=316ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062be-2c6-5f00e14b1b367"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 710\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=100\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: text/html\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=316ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Itinerary.c(49):     <!DOCTYPE html>\n
+Itinerary.c(49):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
+Itinerary.c(49):     <HEAD></HEAD>\n
+Itinerary.c(49):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Itinerary.c(49):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Itinerary.c(49):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Itinerary.c(49):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Itinerary.c(49):     \t\t\t<tr>\n
+Itinerary.c(49):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+Itinerary.c(49):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
+Itinerary.c(49):      height="45" width="130" align="absmiddle" border="0"/></td>\n
+Itinerary.c(49):     \t\t\t\t<td align="right"></td>\n
+Itinerary.c(49):     \t\t\t\t<td></td>\n
+Itinerary.c(49):     \t\t\t</tr>\n
+Itinerary.c(49):     \t\t</table>\n
+Itinerary.c(49):     \t</BODY>\n
+Itinerary.c(49):     </HTML>
+Itinerary.c(49): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Itinerary.c(49): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Itinerary.c(49): t=318ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062d7-259-5f00e14b43579"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 601\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=99\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: image/png\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=319ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+Itinerary.c(49): t=319ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062e3-105b-5f00e14b55a70"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 4187\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=100\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: image/png\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=320ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Itinerary.c(49): t=343ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Set-Cookie: MSO=SID&1673559334; path=/\r\n
+Itinerary.c(49):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=100\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Transfer-Encoding: chunked\r\n
+Itinerary.c(49):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=344ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Itinerary.c(49):     2ae\r\n
+Itinerary.c(49): t=344ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Itinerary.c(49):     \r\n
+Itinerary.c(49):     0\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=344ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Itinerary.c(49):     <!-- \n
+Itinerary.c(49):      A Session ID has been created and loaded into a cookie called MSO.\n
+Itinerary.c(49):      Also, the server options have been loaded into the cookie called\n
+Itinerary.c(49):      MSO as well.  The server options can be set via the Admin page.\n
+Itinerary.c(49):      --->\n
+Itinerary.c(49):     \n
+Itinerary.c(49):     <html>\n
+Itinerary.c(49):     <title>Web Tours</title>\n
+Itinerary.c(49):        <!-- Frame Set -->\n
+Itinerary.c(49):        <frameset cols="160,*" border="1" frameborder="1">\n
+Itinerary.c(49):           <!-- Navigation Frame -->\n
+Itinerary.c(49):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Itinerary.c(49):                 noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(49):           <!-- Home Frame -->\n
+Itinerary.c(49):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Itinerary.c(49):                 noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(49):        </frameset>\n
+Itinerary.c(49):     </html>\n
+Itinerary.c(49):     \n
+Itinerary.c(49):     </body>\n
+Itinerary.c(49):     </html>
+Itinerary.c(49): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Itinerary.c(49): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Itinerary.c(49): t=349ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:30 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062bf-551-5f00e14b1cebe"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 1361\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=99\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: text/html\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=350ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+Itinerary.c(49):     <HTML>\n
+Itinerary.c(49):     <HEAD>\n
+Itinerary.c(49):     \t<title>Web Tours</title>\n
+Itinerary.c(49):     </HEAD>\n
+Itinerary.c(49):     <style>\n
+Itinerary.c(49):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(49):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Itinerary.c(49):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(49):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(49):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Itinerary.c(49):     N: none}\n
+Itinerary.c(49):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Itinerary.c(49):     CORATION: underline}\n
+Itinerary.c(49):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(49):     </style>\n
+Itinerary.c(49):     <body bgcolor="#e0e7f1">\n
+Itinerary.c(49):     <BR/>\n
+Itinerary.c(49):     <BR/>\n
+Itinerary.c(49):     <BR/>\n
+Itinerary.c(49):     <br/>\n
+Itinerary.c(49):     <table border="0">\n
+Itinerary.c(49):     <tr><td></td></tr>\n
+Itinerary.c(49):     <TR><TD></TD></TR>\n
+Itinerary.c(49):     <TR><TD>\n
+Itinerary.c(49):     <blockquote>\n
+Itinerary.c(49):     <H1><b>Web Tours</b></H1>\n
+Itinerary.c(49):     Welcome to the Web Tours site.\n
+Itinerary.c(49):     <br/>\n
+Itinerary.c(49):     To make reservations,please enter your account information to the left.\n
+Itinerary.c(49):     <br/>\n
+Itinerary.c(49):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Itinerary.c(49):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Itinerary.c(49):     <br/>\n
+Itinerary.c(49):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Itinerary.c(49):     tration</b></A> link.\n
+Itinerary.c(49):     <br/><br/><br/><br/><br/><br/>\n
+Itinerary.c(49):     <br/><small>\n
+Itinerary.c(49):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Itinerary.c(49):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Itinerary.c(49):     </small>\n
+Itinerary.c(49):     </blockquote></TD>\n
+Itinerary.c(49):     <TD></TD></TR>\n
+Itinerary.c(49):     </table>\n
+Itinerary.c(49):     </body>\n
+Itinerary.c(49):     </HTML>\n
+Itinerary.c(49): t=378ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Expires: Wed, 11 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=98\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Transfer-Encoding: chunked\r\n
+Itinerary.c(49):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=378ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Itinerary.c(49):     5d1\r\n
+Itinerary.c(49): t=378ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Itinerary.c(49):     \r\n
+Itinerary.c(49):     0\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=378ms: 1489-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Itinerary.c(49):     <!DOCTYPE html\n
+Itinerary.c(49):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(49):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(49):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(49):     <head>\n
+Itinerary.c(49):     <title>Web Tours Navigation Bar</title>\n
+Itinerary.c(49):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(49):     </head>\n
+Itinerary.c(49):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(49):     <style>\n
+Itinerary.c(49):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(49):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Itinerary.c(49):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(49):     small {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(49):     </style>\n
+Itinerary.c(49):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Itinerary.c(49):     <input type="hidden" name="userSession" value="135565.762170919zQHDVzDpiQVzzzzHtViDipQiDDf
+Itinerary.c(49):     "/>\n
+Itinerary.c(49):     <table border="0"><tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td>&nbsp;</td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td>&nbsp;</td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td><small>&nbsp;Username</small></td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td><small>&nbsp;Password</small></td>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td>&nbsp;</td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td>\n
+Itinerary.c(49):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Itinerary.c(49):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Itinerary.c(49):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Itinerary.c(49):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Itinerary.c(49):     </form>\n
+Itinerary.c(49):     \n
+Itinerary.c(49):     </body>\n
+Itinerary.c(49):     </html>\n
+Itinerary.c(49): Notify: Saving Parameter "userSession = 135565.762170919zQHDVzDpiQVzzzzHtViDipQiDDf".
+Itinerary.c(49): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Itinerary.c(49): t=381ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+Itinerary.c(49):     HTTP/1.1 200 OK\r\n
+Itinerary.c(49):     Date: Thu, 12 Jan 2023 21:35:34 GMT\r\n
+Itinerary.c(49):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(49):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(49):     ETag: "10000000062df-2a7-5f00e14b4f4df"\r\n
+Itinerary.c(49):     Accept-Ranges: bytes\r\n
+Itinerary.c(49):     Content-Length: 679\r\n
+Itinerary.c(49):     Keep-Alive: timeout=5, max=98\r\n
+Itinerary.c(49):     Connection: Keep-Alive\r\n
+Itinerary.c(49):     Content-Type: image/gif\r\n
+Itinerary.c(49):     \r\n
+Itinerary.c(49): t=381ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+Itinerary.c(49): web_url("WebTours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Itinerary.c(59): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Itinerary.c(59): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Itinerary.c(61): Notify: Transaction "open_site" ended with a "Pass" status (Duration: 0.2966 Wasted Time: 0.0474).
+Itinerary.c(65): Notify: Transaction "login" started.
+Itinerary.c(66): web_reg_find started  	[MsgId: MMSG-26355]
+Itinerary.c(66): Notify: Next row for parameter login = 1 [table  = login].
+Itinerary.c(66): Notify: Parameter Substitution: parameter "login" =  "jojo"
+Itinerary.c(66): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Itinerary.c(70): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Itinerary.c(70): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(73): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Itinerary.c(73): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(76): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Itinerary.c(76): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(79): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Itinerary.c(79): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(82): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Itinerary.c(82): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(85): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Itinerary.c(85): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(88): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Itinerary.c(88): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(91): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Itinerary.c(91): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(94): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Itinerary.c(94): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(97): Think time - Waiting 1.00 seconds (according to limit).
+Itinerary.c(97): lr_think_time: 1.00 seconds (recorded think time was 117.00 seconds).
+Itinerary.c(99): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Itinerary.c(99): Notify: Parameter Substitution: parameter "userSession" =  "135565.762170919zQHDVzDpiQVzzzzHtViDipQiDDf"
+Itinerary.c(99): Notify: Next row for parameter login = 1 [table  = login].
+Itinerary.c(99): Notify: Parameter Substitution: parameter "login" =  "jojo"
+Itinerary.c(99): Notify: Next row for parameter password = 1 [table  = password].
+Itinerary.c(99): Notify: Parameter Substitution: parameter "password" =  "bean"
+Itinerary.c(99): t=1670ms: 358-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Expires: 5s\r\n
+Itinerary.c(99):     Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&add
+Itinerary.c(99):     ress1&&creditCard&&expDate&%0A; path=/\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=97\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Transfer-Encoding: chunked\r\n
+Itinerary.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1671ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+Itinerary.c(99):     1e1\r\n
+Itinerary.c(99): t=1671ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+Itinerary.c(99):     \r\n
+Itinerary.c(99):     0\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1671ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=9)
+Itinerary.c(99):     <!--\n
+Itinerary.c(99):     User password was correct - added a cookie with the user's default\n
+Itinerary.c(99):     information.  Set the user up to make reservations...\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     --->\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     <html>\n
+Itinerary.c(99):     <title>Web Tours</title>\n
+Itinerary.c(99):     <frameset cols="160,*" border=1 frameborder=1>\n
+Itinerary.c(99):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+Itinerary.c(99):     ize="noresize" scrolling="auto"/>\n
+Itinerary.c(99):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+Itinerary.c(99):     resize" scrolling="auto"/>\n
+Itinerary.c(99):     </frameset>\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     </body>\n
+Itinerary.c(99):     </html>
+Itinerary.c(99): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Itinerary.c(99): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Itinerary.c(99): t=1700ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Expires: 5s\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=99\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Transfer-Encoding: chunked\r\n
+Itinerary.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1701ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+Itinerary.c(99):     396\r\n
+Itinerary.c(99): t=1701ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+Itinerary.c(99):     \r\n
+Itinerary.c(99):     0\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1701ms: 918-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=11)
+Itinerary.c(99):     <!DOCTYPE html\n
+Itinerary.c(99):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(99):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(99):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(99):     <head>\n
+Itinerary.c(99):     <title>Welcome to Web Tours</title>\n
+Itinerary.c(99):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(99):     </head>\n
+Itinerary.c(99):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(99):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Itinerary.c(99):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Itinerary.c(99):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Itinerary.c(99):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours 
+Itinerary.c(99):     reservation pages.<BR/>Using the menu to the left, you can search for new flights to book,
+Itinerary.c(99):      \n
+Itinerary.c(99):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Itinerary.c(99):     you're done!\n
+Itinerary.c(99):     </blockquote>\n
+Itinerary.c(99):     </body>\n
+Itinerary.c(99):     </html>
+Itinerary.c(99): t=1704ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Expires: Wed, 11 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=97\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Transfer-Encoding: chunked\r\n
+Itinerary.c(99):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1704ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+Itinerary.c(99):     5ca\r\n
+Itinerary.c(99): t=1705ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+Itinerary.c(99):     \r\n
+Itinerary.c(99):     0\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1705ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=10)
+Itinerary.c(99):     <!DOCTYPE html\n
+Itinerary.c(99):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(99):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(99):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(99):     <head>\n
+Itinerary.c(99):     <title>Web Tours Navigation Bar</title>\n
+Itinerary.c(99):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(99):     </head>\n
+Itinerary.c(99):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     <style>\n
+Itinerary.c(99):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(99):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Itinerary.c(99):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(99):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(99):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Itinerary.c(99):     N: none}\n
+Itinerary.c(99):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Itinerary.c(99):     CORATION: underline}\n
+Itinerary.c(99):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(99):     </style>\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     <BR><BR><center>\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Itinerary.c(99):     RC="/WebTours/images/flights.gif" \n
+Itinerary.c(99):     ALT="Search Flights Button"/></A>\n
+Itinerary.c(99):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Itinerary.c(99):     WebTours/images/itinerary.gif" \n
+Itinerary.c(99):     ALT="Itinerary Button"/></A>\n
+Itinerary.c(99):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Itinerary.c(99):     ours/images/in_home.gif" \n
+Itinerary.c(99):     ALT="Home Button"/></A>\n
+Itinerary.c(99):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Itinerary.c(99):     es/signoff.gif" \n
+Itinerary.c(99):     ALT="SignOff Button"/></A></center>\n
+Itinerary.c(99):     \n
+Itinerary.c(99):     </body>\n
+Itinerary.c(99):     </html>\n
+Itinerary.c(99): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Itinerary.c(99): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Itinerary.c(99): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Itinerary.c(99): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Itinerary.c(99): t=1707ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=14)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(99):     ETag: "10000000062d9-2b0-5f00e14b46457"\r\n
+Itinerary.c(99):     Accept-Ranges: bytes\r\n
+Itinerary.c(99):     Content-Length: 688\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=99\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Content-Type: image/gif\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1708ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=14)
+Itinerary.c(99): t=1708ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=15)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(99):     ETag: "10000000062e2-2ef-5f00e14b53f19"\r\n
+Itinerary.c(99):     Accept-Ranges: bytes\r\n
+Itinerary.c(99):     Content-Length: 751\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=100\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Content-Type: image/gif\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1708ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=15)
+Itinerary.c(99): t=1718ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=12)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(99):     ETag: "10000000062d2-2d6-5f00e14b3b0a6"\r\n
+Itinerary.c(99):     Accept-Ranges: bytes\r\n
+Itinerary.c(99):     Content-Length: 726\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=96\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Content-Type: image/gif\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1718ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=12)
+Itinerary.c(99): t=1750ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=13)
+Itinerary.c(99):     HTTP/1.1 200 OK\r\n
+Itinerary.c(99):     Date: Thu, 12 Jan 2023 21:35:35 GMT\r\n
+Itinerary.c(99):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(99):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(99):     ETag: "10000000062dc-2dd-5f00e14b4ae91"\r\n
+Itinerary.c(99):     Accept-Ranges: bytes\r\n
+Itinerary.c(99):     Content-Length: 733\r\n
+Itinerary.c(99):     Keep-Alive: timeout=5, max=98\r\n
+Itinerary.c(99):     Connection: Keep-Alive\r\n
+Itinerary.c(99):     Content-Type: image/gif\r\n
+Itinerary.c(99):     \r\n
+Itinerary.c(99): t=1750ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=13)
+Itinerary.c(99): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Itinerary.c(99): web_submit_data("login.pl") was successful, 5779 body bytes, 2030 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Itinerary.c(116): Notify: Transaction "login" ended with a "Pass" status (Duration: 1,3188 Think Time: 1,0022 Wasted Time: 0,0040).
+Itinerary.c(118): Notify: Transaction "Itinerary" started.
+Itinerary.c(120): web_reg_find started  	[MsgId: MMSG-26355]
+Itinerary.c(120): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Itinerary.c(124): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Itinerary.c(124): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(127): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Itinerary.c(127): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(130): Think time - Waiting 1,00 seconds (according to limit).
+Itinerary.c(130): lr_think_time: 1,00 seconds (recorded think time was 47,00 seconds).
+Itinerary.c(132): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Itinerary.c(132): t=2905ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=16)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=95\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Transfer-Encoding: chunked\r\n
+Itinerary.c(132):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=2906ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=16)
+Itinerary.c(132):     24f\r\n
+Itinerary.c(132): t=2906ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=16)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     0\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=2906ms: 591-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=16)
+Itinerary.c(132):     <!-- \n
+Itinerary.c(132):      User wants the intineraries.  Since user has already logged on,\n
+Itinerary.c(132):      we can give them the menu in the navbar.\n
+Itinerary.c(132):      --->\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <html>\n
+Itinerary.c(132):     <title>Web Tours</title>\n
+Itinerary.c(132):        <!-- Frame Set -->\n
+Itinerary.c(132):        <frameset cols="160,*" border="1" frameborder="1">\n
+Itinerary.c(132):           <!-- Navigation Frame -->\n
+Itinerary.c(132):           <frame src="nav.pl?page=menu&in=itinerary" name="navbar" \n
+Itinerary.c(132):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(132):           <!-- Itinerary Frame -->\n
+Itinerary.c(132):           <frame src="itinerary.pl" name="info" \n
+Itinerary.c(132):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(132):        </frameset>\n
+Itinerary.c(132):     </html>\n
+Itinerary.c(132): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Itinerary.c(132): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Itinerary.c(132): t=2945ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=17)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Expires: Wed, 11 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=96\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Transfer-Encoding: chunked\r\n
+Itinerary.c(132):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=2945ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=17)
+Itinerary.c(132):     5ca\r\n
+Itinerary.c(132): t=2945ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=17)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     0\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=2946ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=17)
+Itinerary.c(132):     <!DOCTYPE html\n
+Itinerary.c(132):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(132):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(132):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(132):     <head>\n
+Itinerary.c(132):     <title>Web Tours Navigation Bar</title>\n
+Itinerary.c(132):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(132):     </head>\n
+Itinerary.c(132):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <style>\n
+Itinerary.c(132):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(132):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Itinerary.c(132):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(132):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(132):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Itinerary.c(132):     N: none}\n
+Itinerary.c(132):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Itinerary.c(132):     CORATION: underline}\n
+Itinerary.c(132):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(132):     </style>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <BR><BR><center>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Itinerary.c(132):     RC="/WebTours/images/flights.gif" \n
+Itinerary.c(132):     ALT="Search Flights Button"/></A>\n
+Itinerary.c(132):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Itinerary.c(132):     WebTours/images/in_itinerary.gif" \n
+Itinerary.c(132):     ALT="Itinerary Button"/></A>\n
+Itinerary.c(132):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Itinerary.c(132):     ours/images/home.gif" \n
+Itinerary.c(132):     ALT="Home Button"/></A>\n
+Itinerary.c(132):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Itinerary.c(132):     es/signoff.gif" \n
+Itinerary.c(132):     ALT="SignOff Button"/></A></center>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     </body>\n
+Itinerary.c(132):     </html>\n
+Itinerary.c(132): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Itinerary.c(132): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Itinerary.c(132): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Itinerary.c(132): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Itinerary.c(132): t=2948ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(132):     ETag: "10000000062d6-2b0-5f00e14b41a20"\r\n
+Itinerary.c(132):     Accept-Ranges: bytes\r\n
+Itinerary.c(132):     Content-Length: 688\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=98\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Content-Type: image/gif\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=2949ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+Itinerary.c(132): t=3019ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=19)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(132):     ETag: "10000000062da-2dd-5f00e14b47bc8"\r\n
+Itinerary.c(132):     Accept-Ranges: bytes\r\n
+Itinerary.c(132):     Content-Length: 733\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=94\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Content-Type: image/gif\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=3019ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=19)
+Itinerary.c(132): t=3050ms: 255-byte response headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Expires: Wed, 11 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=97\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Transfer-Encoding: chunked\r\n
+Itinerary.c(132):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=3050ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     f84\r\n
+Itinerary.c(132): t=3051ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3051ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3051ms: 12011-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     <!DOCTYPE html\n
+Itinerary.c(132):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(132):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(132):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(132):     <head>\n
+Itinerary.c(132):     <title>Flights List</title>\n
+Itinerary.c(132):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(132):     </head>\n
+Itinerary.c(132):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(132):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Itinerary.c(132):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Itinerary.c(132):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Itinerary.c(132):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
+Itinerary.c(132):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
+Itinerary.c(132):     ">\n
+Itinerary.c(132):     <center>\n
+Itinerary.c(132):     <TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">\n
+Itinerary.c(132):     <TR bgcolor="#5E7884">\n
+Itinerary.c(132):       <TD colspan="4" align="center"><font color="white"><B>Jojo Bean\n
+Itinerary.c(132):      's Flight Transaction Summary</B></color></TD></TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="210297424-100296-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Bean\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               Gray Street<br/>\n
+Itinerary.c(132):               Denver<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 858 <BR/> (CC: x-5678)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       05/18/20\n
+Itinerary.c(132):      :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20\n
+Itinerary.c(132):      :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="210297416-177189-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Bean\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               Green St<br/>\n
+Itinerary.c(132):               Denwer<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 457 <BR/> (CC: x-5678)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       05/18/20\n
+Itinerary.c(132):      :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20\n
+Itinerary.c(132):      :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="210297416-254112-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Bean\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               Green St<br/>\n
+Itinerary.c(132):               Denwer<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 457 <BR/> (CC: x-5678)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       05/18/20\n
+Itinerary.c(132):      :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20\n
+Itinerary.c(132):      :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="210297424-331066-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Bean\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               Gray Street<br/>\n
+Itinerary.c(132):               Denver<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 858 <BR/> (CC: x-5678)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       05/18/20\n
+Itinerary.c(132):      :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20\n
+Itinerary.c(132):      :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="210297424-407989-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Bean\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               Gray Street<br/>\n
+Itinerary.c(132):               Denver<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 858 <BR/> (CC: x-5678)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       05/18/20\n
+Itinerary.c(132):      :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20\n
+Itinerary.c(132):      :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33492785-48-JB"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;7 First class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>Jojo Jojo      <li><i>      <li><i>      <li><i>      <li><i>      <li><i>   
+Itinerary.c(132):        <li><i>\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Jojo Bean\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               PIrogovo<br/>\n
+Itinerary.c(132):               Moscow<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 35 <BR/> (CC: x-9043)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  5pm : Flight 052 leaves Denver  for Portland.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-0-P"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp; Jojo Jojo class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     052      <li><i>05/21/20\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               PIrogovo\n
+Itinerary.c(132):      <br/>\n
+Itinerary.c(132):               Moscow<br/>\n
+Itinerary.c(132):               9043;23/12<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-7)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       0 :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-0-M"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;052 05/21/20\n
+Itinerary.c(132):      class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):           <li><i>      <li><i>0      <li><i>0jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               Moscow\n
+Itinerary.c(132):      <br/>\n
+Itinerary.c(132):               9043;23/12<br/>\n
+Itinerary.c(132):               7;First;Window<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="4-0-60"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;110 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               6789 05/25\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;First;Aisle<br/>\n
+Itinerary.c(132):               ;jojo jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-110)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="8-0-60"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;220 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               6789 05/25\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Business;Window<br/>\n
+Itinerary.c(132):               ;jojo jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-220)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details
+Itinerary.c(132): t=3059ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3059ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3059ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3059ms: 12263-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     :</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="1-0-60"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;50 275 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               6789 05/25\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Coach;None<br/>\n
+Itinerary.c(132):               ;jojo jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-50)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-0-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;First;Aisle<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-000)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="6-1-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Coach;Window<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-170)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="8-1-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Business;None<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-230)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="15" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="12-1-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-350)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="16" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="15-1-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     jojo      <li><i>jojo\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;First;Window<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-420)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):       &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="17" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="21-1-5&#10;"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Johnny      <li><i>Depp\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               5678 \n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               1;Business;None<br/>\n
+Itinerary.c(132):               ;jojo  jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-580)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Apple Street \n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="18" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-1-11"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Johnny      <li><i>Depp\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               12345678901234 1029\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;{seatType};{seatingPreference}<br/>\n
+Itinerary.c(132):               ; Passenger_Names_super;<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-000)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Apple Street \n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="19" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-1-11"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Johnny      <li><i>Depp\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               12345678901234 1029\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;{seatType};{seatingPreference}<br/>\n
+Itinerary.c(132):               ; Passenger_Names_super;<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-000)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Apple Street \n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="20" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-1-11"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Wednesday wsn      <li><i>jojoAddams\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               12345678901234 1029\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;{seatingPreference}<br/>\n
+Itinerary.c(132):               ; Passenger_Names_super;<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-ht}\n
+Itinerary.c(132):     )\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="21" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="0-1-91"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;3 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Thursdayjojordm      <li><i>Addams\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               91702468115157732 10/25\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;{seatPref}<br/>\n
+Itinerary.c(132):               ;jojoJenna Ortega;jojoEmma Myers<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-3)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="22
+Itinerary.c(132): t=3068ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3068ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3068ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3068ms: 12263-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     " value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="4-1-20"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;110 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Thursdayjojotfz      <li><i>Addams\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               24637478584692434 08/33\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;Aisle<br/>\n
+Itinerary.c(132):               ;jojo;jojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-110)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="23" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="5-1-21"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;513 261 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Mondayjojorhx      <li><i>Addams\n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               24513164527797936 10/94\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;None<br/>\n
+Itinerary.c(132):               ;tfzjojo;tfzjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-150)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="24" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="23-1-31"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;260 586 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Friday jojouac      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               36634511593722771 11/39\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Window<br/>\n
+Itinerary.c(132):               ;rhxjojo;rhxjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-623)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="25" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="25-1-80"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;861 655 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Tuesday jojoedb      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               85758522184014629 04/70\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;None<br/>\n
+Itinerary.c(132):               ;uacjojo;uacjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-683)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="26" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="35-2-21"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;592 633 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Thursdayjojoqgv      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               23778920270662912 11/87\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;None<br/>\n
+Itinerary.c(132):               ;edbjojo;edbjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-952)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore Academy\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="27" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33-2-30"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;093 344 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Wednesday jojoedn      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               38351629304791709 06/25\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;qgvjojo;qgvjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-900)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="28" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="7-2-30"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;121 444 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Tuesday jojouam      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               39861510664039783 07/59\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;None<br/>\n
+Itinerary.c(132):               ;ednjojo;ednjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-211)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore93\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="29" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="1-2-50"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;503 421 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Tuesday jojorgm      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               54031420194724217 04/51\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;Window<br/>\n
+Itinerary.c(132):               ;uamjojo;uamjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-052)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore81\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="30" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="12-2-90"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;332 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturday jojoyjm      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               9911000045418627 08/54\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;None<br/>\n
+Itinerary.c(132):               ;rgmjojo;rgmjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-331)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore34\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="31" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="30-2-61"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;183 1447 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sunday jojoqgc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               68999095465827335 10/48\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Window<br/>\n
+Itinerary.c(132):               ;yjmjojo;yjmjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-811)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore39\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="32" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="36-2-30"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;993 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sunday jojoqgc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               34950200021581699 07/78\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Aisle<br/>\n
+Itinerary.c(132):               ;qgcjojo;qgcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-993)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore36\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="33" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="36-2-70"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):      
+Itinerary.c(132): t=3076ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3076ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3076ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3077ms: 12263-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):      <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;993 0 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturday jojorfx      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               73956139209081850 08/65\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Aisle<br/>\n
+Itinerary.c(132):               ;qgcjojo;qgcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-991)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore52\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="34" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="28-2-30"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;671 112 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturday jojorfx      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               37039391812021072 09/84\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Window<br/>\n
+Itinerary.c(132):               ;rfxjojo;rfxjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-763)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore81\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="35" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="28-2-50"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;670 126 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sunday jojoqfb      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               57148614368143150 05/53\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Window<br/>\n
+Itinerary.c(132):               ;rfxjojo;rfxjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-762)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore27\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="36" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="2-2-40"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;602 277 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sunday jojoqfb      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               45048002658634825 03/90\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Aisle<br/>\n
+Itinerary.c(132):               ;qfbjojo;qfbjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-061)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore68\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="37" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="2-2-41"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;602 277 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Mondayjojoehb      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               48815273576684657 12/52\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Aisle<br/>\n
+Itinerary.c(132):               ;qfbjojo;qfbjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-063)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore47\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="38" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="24-2-90"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;561 67 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Mondayjojoehb      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               97341877997766967 07/36\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Window<br/>\n
+Itinerary.c(132):               ;ehbjojo;ehbjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-651)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore28\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="39" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="24-3-31"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;563 62 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturdayjojoyhv      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               35840164147918616 10/59\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Window<br/>\n
+Itinerary.c(132):               ;ehbjojo;ehbjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-651)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore49\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="40" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="2-3-40"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;803 1215 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturdayjojoyhv      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               46797898487211284 01/87\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;Aisle<br/>\n
+Itinerary.c(132):               ;yhvjojo;yhvjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-080)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore51\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="41" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="3-3-80"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;801 1323 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturdayjojorjv      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               83334359727694485 08/41\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;Aisle<br/>\n
+Itinerary.c(132):               ;yhvjojo;yhvjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-083)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore90\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="42" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33-3-51"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;191 176 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Saturdayjojorjv      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               52120677356166863 10/43\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;rjvjojo;rjvjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-912)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore74\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="43" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33-3-70"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;190 198 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Fridayjojoufc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               76546797311806790 06/83\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;rjvjojo;rjvjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-913)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore45\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="44" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="20-3-80"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;653 90 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table bor
+Itinerary.c(132): t=3085ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3085ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3085ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     1000\r\n
+Itinerary.c(132): t=3085ms: 12263-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     der="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Fridayjojoufc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               81871867946366159 07/42\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Window<br/>\n
+Itinerary.c(132):               ;ufcjojo;ufcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-560)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore27\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="45" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="20-3-80"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;653 90 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Fridayjojotdc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               86768290692269538 05/61\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Business;Window<br/>\n
+Itinerary.c(132):               ;ufcjojo;ufcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-561)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore46\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="46" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="18-3-20"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;051 245 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Fridayjojotdc      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               22185514238957229 06/91\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Window<br/>\n
+Itinerary.c(132):               ;tdcjojo;tdcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-503)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore46\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="47" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="18-3-50"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;050 275 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Thursdayjojoefz      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               58140699034458289 05/83\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Window<br/>\n
+Itinerary.c(132):               ;tdcjojo;tdcjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-500)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore47\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="48" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33-3-10"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;090 421 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Thursdayjojoefz      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               14094059688056721 07/39\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;efzjojo;efzjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-900)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore47\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="49" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="33-3-41"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;092 398 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sundayjojotgz      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               40022535665872466 12/63\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;efzjojo;efzjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-900)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore44\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="50" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="18-3-60"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;150 600 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Sundayjojotgz      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               69871050976553298 07/75\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;None<br/>\n
+Itinerary.c(132):               ;tgzjojo;tgzjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-512)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore80\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="51" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="19-3-31"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;153 491 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     Fridayjojoyan      <li><i>Addams \n
+Itinerary.c(132):           <li><i></i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               38987755989635818 11/68\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;First;None<br/>\n
+Itinerary.c(132):               ;tgzjojo;tgzjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-513)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight Nevermore91\n
+Itinerary.c(132):      leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <!-- Flight #1 -->\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Itinerary.c(132):     <b>\n
+Itinerary.c(132):     <label><input type="checkbox" name="52" value="on" /></label></font></b>\n
+Itinerary.c(132):     <input type="hidden" name="flightID" value="15-40-40"  />\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="45%" valign="top">\n
+Itinerary.c(132):           <b>&nbsp;&nbsp;140 128 class tickets for :</b><br/>\n
+Itinerary.c(132):           <center><table border="0" width="85%"><tr><td>\n
+Itinerary.c(132):     </i>\n
+Itinerary.c(132):           </td></tr></table></center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Itinerary.c(132):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Itinerary.c(132):           <center>\n
+Itinerary.c(132):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Itinerary.c(132):               41398342109883609 02/42\n
+Itinerary.c(132):     <br/>\n
+Itinerary.c(132):               2;Coach;Aisle<br/>\n
+Itinerary.c(132):               ;yanjojo;yanjojo<br/>\n
+Itinerary.c(132):               <br/>\n
+Itinerary.c(132):               Total Charge: $ 0 <BR/> (CC: x-412)\n
+Itinerary.c(132):           </td> </tr> </table>\n
+Itinerary.c(132):           </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="3">\n
+Itinerary.c(132):       <b>Flight Details:</b><BR/>  <center>\n
+Itinerary.c(132):        :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TR bgcolor="#EFF2F7">\n
+Itinerary.c(132):       <TD COLSPAN="4">\n
+Itinerary.c(132):       <hr/>\n
+Itinerary.c(132):       </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     <TR>\n
+Itinerary.c(132):        <TD align="center" COLSPAN="4">\n
+Itinerary.c(132):        <b>A total of 52 scheduled flights.</font></b>\n
+Itinerary.c(132):        </TD>\n
+Itinerary.c(132):     </TR>\n
+Itinerary.c(132):     </TABLE>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+Itinerary.c(132):     <TR>\n
+Itinerary.c(132):     <TD align="left" width="50%" >\n
+Itinerary.c(132):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Itinerary.c(132):     er="0" /></TD>\n
+Itinerary.c(132):     <TD align="right" width="50%" >\n
+Itinerary.c(132):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Itinerary.c(132):     f" border="0" /></TD>\n
+Itinerary.c(132):     </TABLE>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     <div><input type="hidden" name=".cgifields" value="33"  /><input type="hidden" name=".cgif
+Itinerary.c(132):     ields" value="32"  /><input type="hidden" name=".cgifields" value="21"  /><input type="hid
+Itinerary.c(132):     den" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="26"  /><
+Itinerary.c(132):     input type="hidden" name=".cgifields" value="17"  /><input type="hidden" name=".cgifields"
+Itinerary.c(132):      value="2"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" nam
+Itinerary.c(132):     e=".cgifields" value="18"  /><input type="hidden" name=".cgifields" value="30"  /><input t
+Itinerary.c(132):     ype="hidden" name=".cgifields" value="16"  /><input type="hidden" name=".cgifields" value=
+Itinerary.c(132):     "44"  /><input type="hidden" name=".cgifields" value="27"  /><input type="hidden" name=".c
+Itinerary.c(132):     gifields" value="25"  /><input type="hidden" name=".cgifields" value="28"  /><input type="
+Itinerary.c(132):     hidden" name=".cgifields" value="40"  /><input type="hidden" name=".cgifields" value="20" 
+Itinerary.c(132):      /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifie
+Itinerary.c(132):     lds" value="49"  /><input type="hidden" name=".cgifields" value="24"  /><input type="hidde
+Itinerary.c(132):     n" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" value="31"  /><i
+Itinerary.c(132):     nput type="hidden" name=".cgifields" value="35"  /><input type="hidden" name=".cgifields" 
+Itinerary.c(132):     value="11"  /><input type="hidden" name=".cgifields" value="48"  /><input type="hidden" na
+Itinerary.c(132):     me=".cgifields" value="42"  /><input type="hidden" name=".cgifields" value="22"  /><input 
+Itinerary.c(132):     type="hidden" name=".cgifields" value="46"  /><input type="hidden" name=".cgifields" value
+Itinerary.c(132):     ="13"  /><input type="hidden" name=".cgifields" value="23"  /><input type="hidden" name=".
+Itinerary.c(132):     cgifields" value="29"  /><input type="hidden" name=".cgifields" value="6"  /><input type="
+Itinerary.c(132):     hidden" name=".cgifields" value="50"  /><input type="hidden" name=".cgifields" value="39" 
+Itinerary.c(132):      /><input type="hidden" name=".cgifields" value="36"  /><input type="hidden" name=".cgifie
+Itinerary.c(132):     lds" value="3"  /><input type="hidden" name=".cgifields" value="51"  /><input type="hidden
+Itinerary.c(132):     " name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="41"  /><inp
+Itinerary.c(132):     ut type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" va
+Itinerary.c(132):     lue="47"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name
+Itinerary.c(132):     =".cgifields" value="52"  /><input type=
+Itinerary.c(132): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Itinerary.c(132): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Itinerary.c(132): t=3093ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     fa\r\n
+Itinerary.c(132): t=3093ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     \r\n
+Itinerary.c(132):     0\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=3093ms: 503-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=18)
+Itinerary.c(132):     "hidden" name=".cgifields" value="38"  /><input type="hidden" name=".cgifields" value="8" 
+Itinerary.c(132):      /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifiel
+Itinerary.c(132):     ds" value="34"  /><input type="hidden" name=".cgifields" value="45"  /><input type="hidden
+Itinerary.c(132):     " name=".cgifields" value="37"  /><input type="hidden" name=".cgifields" value="43"  /><in
+Itinerary.c(132):     put type="hidden" name=".cgifields" value="19"  /><input type="hidden" name=".cgifields" v
+Itinerary.c(132):     alue="5"  /></div></form>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     </center>\n
+Itinerary.c(132):     \n
+Itinerary.c(132):     </body>\n
+Itinerary.c(132):     </html>
+Itinerary.c(132): t=3107ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=21)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(132):     ETag: "10000000062d1-33f-5f00e14b39b3c"\r\n
+Itinerary.c(132):     Accept-Ranges: bytes\r\n
+Itinerary.c(132):     Content-Length: 831\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=93\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Content-Type: image/gif\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=3107ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=21)
+Itinerary.c(132): t=3115ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=22)
+Itinerary.c(132):     HTTP/1.1 200 OK\r\n
+Itinerary.c(132):     Date: Thu, 12 Jan 2023 21:35:36 GMT\r\n
+Itinerary.c(132):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(132):     Last-Modified: Sat, 17 Dec 2022 23:02:31 GMT\r\n
+Itinerary.c(132):     ETag: "10000000062d0-2e6-5f00e14b383cc"\r\n
+Itinerary.c(132):     Accept-Ranges: bytes\r\n
+Itinerary.c(132):     Content-Length: 742\r\n
+Itinerary.c(132):     Keep-Alive: timeout=5, max=95\r\n
+Itinerary.c(132):     Connection: Keep-Alive\r\n
+Itinerary.c(132):     Content-Type: image/gif\r\n
+Itinerary.c(132):     \r\n
+Itinerary.c(132): t=3116ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=22)
+Itinerary.c(132): Registered web_reg_find successful for "Text=Itinerary" (count=8)  	[MsgId: MMSG-26364]
+Itinerary.c(132): web_url("Itinerary Button") was successful, 66633 body bytes, 1913 header bytes, 154 chunking overhead bytes  	[MsgId: MMSG-26385]
+Itinerary.c(142): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 1.3434 Think Time: 1.0155 Wasted Time: 0.0046).
+Itinerary.c(144): Notify: Transaction "Logout" started.
+Itinerary.c(146): web_reg_find started  	[MsgId: MMSG-26355]
+Itinerary.c(146): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Itinerary.c(148): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Itinerary.c(148): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Itinerary.c(148): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Itinerary.c(150): Think time - Waiting 1.00 seconds (according to limit).
+Itinerary.c(150): lr_think_time: 1.00 seconds (recorded think time was 185.00 seconds).
+Itinerary.c(152): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Itinerary.c(152): t=4232ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=23)
+Itinerary.c(152):     HTTP/1.1 200 OK\r\n
+Itinerary.c(152):     Date: Thu, 12 Jan 2023 21:35:38 GMT\r\n
+Itinerary.c(152):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(152):     Set-Cookie: MSO=SID&1673559338; path=/\r\n
+Itinerary.c(152):     Set-Cookie: MTUserInfo=; path=/; expires=Wed, 11-Jan-2023 21:35:38 GMT\r\n
+Itinerary.c(152):     Keep-Alive: timeout=5, max=92\r\n
+Itinerary.c(152):     Connection: Keep-Alive\r\n
+Itinerary.c(152):     Transfer-Encoding: chunked\r\n
+Itinerary.c(152):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(152):     \r\n
+Itinerary.c(152): t=4233ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=23)
+Itinerary.c(152):     2ae\r\n
+Itinerary.c(152): t=4234ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=23)
+Itinerary.c(152):     \r\n
+Itinerary.c(152):     0\r\n
+Itinerary.c(152):     \r\n
+Itinerary.c(152): t=4234ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=23)
+Itinerary.c(152):     <!-- \n
+Itinerary.c(152):      A Session ID has been created and loaded into a cookie called MSO.\n
+Itinerary.c(152):      Also, the server options have been loaded into the cookie called\n
+Itinerary.c(152):      MSO as well.  The server options can be set via the Admin page.\n
+Itinerary.c(152):      --->\n
+Itinerary.c(152):     \n
+Itinerary.c(152):     <html>\n
+Itinerary.c(152):     <title>Web Tours</title>\n
+Itinerary.c(152):        <!-- Frame Set -->\n
+Itinerary.c(152):        <frameset cols="160,*" border="1" frameborder="1">\n
+Itinerary.c(152):           <!-- Navigation Frame -->\n
+Itinerary.c(152):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Itinerary.c(152):                 noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(152):           <!-- Home Frame -->\n
+Itinerary.c(152):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Itinerary.c(152):                 noresize="noresize" scrolling="auto"/>\n
+Itinerary.c(152):        </frameset>\n
+Itinerary.c(152):     </html>\n
+Itinerary.c(152):     \n
+Itinerary.c(152):     </body>\n
+Itinerary.c(152):     </html>
+Itinerary.c(152): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Itinerary.c(152): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Itinerary.c(152): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Itinerary.c(152): t=4234ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=25)
+Itinerary.c(152):     <HTML>\n
+Itinerary.c(152):     <HEAD>\n
+Itinerary.c(152):     \t<title>Web Tours</title>\n
+Itinerary.c(152):     </HEAD>\n
+Itinerary.c(152):     <style>\n
+Itinerary.c(152):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(152):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Itinerary.c(152):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(152):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(152):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Itinerary.c(152):     N: none}\n
+Itinerary.c(152):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Itinerary.c(152):     CORATION: underline}\n
+Itinerary.c(152):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(152):     </style>\n
+Itinerary.c(152):     <body bgcolor="#e0e7f1">\n
+Itinerary.c(152):     <BR/>\n
+Itinerary.c(152):     <BR/>\n
+Itinerary.c(152):     <BR/>\n
+Itinerary.c(152):     <br/>\n
+Itinerary.c(152):     <table border="0">\n
+Itinerary.c(152):     <tr><td></td></tr>\n
+Itinerary.c(152):     <TR><TD></TD></TR>\n
+Itinerary.c(152):     <TR><TD>\n
+Itinerary.c(152):     <blockquote>\n
+Itinerary.c(152):     <H1><b>Web Tours</b></H1>\n
+Itinerary.c(152):     Welcome to the Web Tours site.\n
+Itinerary.c(152):     <br/>\n
+Itinerary.c(152):     To make reservations,please enter your account information to the left.\n
+Itinerary.c(152):     <br/>\n
+Itinerary.c(152):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Itinerary.c(152):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Itinerary.c(152):     <br/>\n
+Itinerary.c(152):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Itinerary.c(152):     tration</b></A> link.\n
+Itinerary.c(152):     <br/><br/><br/><br/><br/><br/>\n
+Itinerary.c(152):     <br/><small>\n
+Itinerary.c(152):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Itinerary.c(152):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Itinerary.c(152):     </small>\n
+Itinerary.c(152):     </blockquote></TD>\n
+Itinerary.c(152):     <TD></TD></TR>\n
+Itinerary.c(152):     </table>\n
+Itinerary.c(152):     </body>\n
+Itinerary.c(152):     </HTML>\n
+Itinerary.c(152): t=4265ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=24)
+Itinerary.c(152):     HTTP/1.1 200 OK\r\n
+Itinerary.c(152):     Date: Thu, 12 Jan 2023 21:35:38 GMT\r\n
+Itinerary.c(152):     Server: Apache/2.2.21 (Win32)\r\n
+Itinerary.c(152):     Expires: Wed, 11 Jan 2023 21:35:38 GMT\r\n
+Itinerary.c(152):     Keep-Alive: timeout=5, max=94\r\n
+Itinerary.c(152):     Connection: Keep-Alive\r\n
+Itinerary.c(152):     Transfer-Encoding: chunked\r\n
+Itinerary.c(152):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Itinerary.c(152):     \r\n
+Itinerary.c(152): t=4265ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=24)
+Itinerary.c(152):     5d1\r\n
+Itinerary.c(152): t=4265ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=24)
+Itinerary.c(152):     \r\n
+Itinerary.c(152):     0\r\n
+Itinerary.c(152):     \r\n
+Itinerary.c(152): t=4266ms: 1489-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=24)
+Itinerary.c(152):     <!DOCTYPE html\n
+Itinerary.c(152):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Itinerary.c(152):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Itinerary.c(152):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Itinerary.c(152):     <head>\n
+Itinerary.c(152):     <title>Web Tours Navigation Bar</title>\n
+Itinerary.c(152):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Itinerary.c(152):     </head>\n
+Itinerary.c(152):     <body bgcolor="#E0E7F1">\n
+Itinerary.c(152):     <style>\n
+Itinerary.c(152):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Itinerary.c(152):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Itinerary.c(152):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Itinerary.c(152):     small {font-family: tahoma; font-size : 8pt}\n
+Itinerary.c(152):     </style>\n
+Itinerary.c(152):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Itinerary.c(152):     <input type="hidden" name="userSession" value="135565.762494937zQHDVzDpQAiDDDDDtViDipQiDtf
+Itinerary.c(152):     "/>\n
+Itinerary.c(152):     <table border="0"><tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td>&nbsp;</td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td>&nbsp;</td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td><small>&nbsp;Username</small></td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td><small>&nbsp;Password</small></td>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td>&nbsp;</td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td>\n
+Itinerary.c(152):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Itinerary.c(152):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Itinerary.c(152):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Itinerary.c(152):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Itinerary.c(152):     </form>\n
+Itinerary.c(152):     \n
+Itinerary.c(152):     </body>\n
+Itinerary.c(152):     </html>\n
+Itinerary.c(152): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Itinerary.c(152): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Itinerary.c(152): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Itinerary.c(162): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 1.1405 Think Time: 0.9997 Wasted Time: 0.0028).
+Itinerary.c(164): Notify: Transaction "UC5_Itinerary" ended with a "Pass" status (Duration: 4.1788 Think Time: 3.0174 Wasted Time: 0.0588).
+Ending action Itinerary.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

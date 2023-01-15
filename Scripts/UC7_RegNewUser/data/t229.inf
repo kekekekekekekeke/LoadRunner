@@ -1,0 +1,8 @@
+[t229]
+FileName1=t229_Jericho%2C_Vermont.json
+URL1=https://en.wikipedia.org/api/rest_v1/page/summary/Jericho%2C_Vermont
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_229.xml
+FileName2=t229_480px-JerichoTownHall.jpeg
+URL2=https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerichoTownHall.JPG/480px-JerichoTownHall.JPG

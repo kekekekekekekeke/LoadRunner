@@ -1,0 +1,6 @@
+[t233]
+FileName1=t233_Jamie_McShane.json
+URL1=https://en.wikipedia.org/api/rest_v1/page/summary/Jamie_McShane
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_233.xml
