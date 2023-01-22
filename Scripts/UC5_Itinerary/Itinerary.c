@@ -115,7 +115,7 @@ Itinerary()
 
 	lr_end_transaction("login",LR_AUTO);
 	
-	lr_start_transaction("Itinerary");
+	lr_start_transaction("invoice");
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Itinerary",
@@ -139,7 +139,7 @@ Itinerary()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("Itinerary",LR_AUTO);
+	lr_end_transaction("invoice",LR_AUTO);
 	
 	lr_start_transaction("Logout");
 	

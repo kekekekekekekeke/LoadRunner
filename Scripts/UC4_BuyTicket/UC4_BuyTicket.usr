@@ -52,7 +52,7 @@ vuser_init=cci
 BuyTicket=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC4_BuyTicket__*delimiter*__open_site__*delimiter*__login__*delimiter*__Flightts__*delimiter*__ticket__*delimiter*__from_to__*delimiter*__payment_details__*delimiter*__invoice__*delimiter*__Logout"
+Order="UC4_BuyTicket__*delimiter*__open_site__*delimiter*__login__*delimiter*__Flightts__*delimiter*__ticket__*delimiter*__from_to__*delimiter*__payment_details__*delimiter*__invoice"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -67,7 +67,6 @@ ticket=
 from_to=
 payment_details=
 invoice=
-Logout=
 [ParameterSimulation]
 NumVusers=1
 IsDurationIndefinite=0

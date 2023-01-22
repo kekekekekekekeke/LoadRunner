@@ -52,7 +52,7 @@ vuser_init=cci
 Itinerary=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC5_Itinerary__*delimiter*__open_site__*delimiter*__login__*delimiter*__Itinerary__*delimiter*__Logout"
+Order="UC5_Itinerary__*delimiter*__open_site__*delimiter*__login__*delimiter*__invoice__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -62,7 +62,7 @@ ActiveRunName=result1
 UC5_Itinerary=
 open_site=
 login=
-Itinerary=
+invoice=
 Logout=
 [ParameterSimulation]
 NumVusers=1
