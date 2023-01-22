@@ -1,32 +1,11 @@
-EventId=5440
-RecordingNumber=8
+EventId=465
+RecordingNumber=2
 
 ActionInfo
-ActionName=Action
+ActionName=Action1
 ActionId=1
-ActionFileSize=260418
+ActionFileSize=592046
 ActionDeleted=0
 RecordingNumber=2
-EndActionInfo
-
-ActionName=Find_Flight
-ActionId=2
-ActionFileSize=390732
-ActionDeleted=0
-RecordingNumber=3
-EndActionInfo
-
-ActionName=Find
-ActionId=3
-ActionFileSize=442533
-ActionDeleted=0
-RecordingNumber=7
-EndActionInfo
-
-ActionName=temp
-ActionId=4
-ActionFileSize=316405
-ActionDeleted=0
-RecordingNumber=8
 EndActionInfo
 

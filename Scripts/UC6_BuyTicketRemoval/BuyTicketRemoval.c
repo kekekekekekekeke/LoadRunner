@@ -63,6 +63,7 @@ BuyTicketRemoval()
 	/* Login step */
 
 	lr_start_transaction("login"); // авторизация
+	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
 		LAST);
@@ -228,9 +229,6 @@ BuyTicketRemoval()
 	web_reg_find("Text/IC=from {depart} to {arrive}", LAST);
 	web_reg_find("Text/IC=<B>{generatorName}{login}{generatorPart}{generatorBlock}{generatorBlock_2}{lastName}'s Flight Invoice</B>", LAST);
 	
-	//lr_save_string("Value={generatorName}{generatorPart}{generatorBlock}{generatorBlock_2}", "firstName");
-
-	
 	web_revert_auto_header("Origin");
 
 	web_revert_auto_header("Sec-Fetch-User");
@@ -272,13 +270,13 @@ BuyTicketRemoval()
 		"Name=buyFlights.y", "Value=8", ENDITEM, 
 		"Name=.cgifields", "Value=saveCC", ENDITEM, 
 		LAST);
-
+	
 	lr_end_transaction("payment_details",LR_AUTO);
 
 	
 	
 	lr_start_transaction("invoice");
-
+	
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
 
@@ -309,10 +307,13 @@ BuyTicketRemoval()
 	web_reg_find("Text/IC={generatorName}{login}{generatorPart}{generatorBlock}{generatorBlock_2}", LAST);
 	
 	web_reg_save_param("flightID",
-		"LB/IC=\" value=\"",
+		"LB/IC=flightID\" value=\"",
 		"RB/IC=\"",
+//		"Ord=ALL",
 		LAST);
-
+	
+	//lr_save_string(lr_paramarr_random("flightID"), "flightID_random");
+	
 	web_revert_auto_header("Sec-Fetch-User");
 
 	web_revert_auto_header("Upgrade-Insecure-Requests");
@@ -355,6 +356,30 @@ BuyTicketRemoval()
 		"Name=removeFlights.y", "Value=15", ENDITEM, 
 		"Name=.cgifields", "Value=1", ENDITEM, 
 		LAST);
+	
+	
+	web_reg_find("Text={generatorName}{login}{generatorPart}{generatorBlock}{generatorBlock_2}",
+        "SaveCount=Del_Count",
+        LAST );
+	
+	web_url("welcome.pl", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t31.inf", 
+		"Mode=HTML", 
+		LAST);
+	
+	 if (atoi(lr_eval_string("{Del_Count}")) < 1){
+        lr_output_message("Log on successful.Ticet removed");
+        }
+     else{
+          lr_error_message("Log on failed.Ticet not removed");
+          return(0);
+     }
+	
 
 	lr_end_transaction("del",LR_AUTO);
 	

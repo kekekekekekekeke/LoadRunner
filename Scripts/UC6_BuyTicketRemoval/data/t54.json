@@ -1,6 +1,2 @@
 )]}'
-
-151
-[["wrb.fr","AVdN8","[[[\"выбор времени\",\"timing\"]],\"ru\",\"en\"]",null,null,null,"generic"],["di",34],["af.httprm",33,"-1384998947910685695",23]]
-25
-[["e",4,null,null,199]]
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":15,"elapsed_days":5865.914069117724},"app":[{"appid":"lkkdlcloifjinapabfonaibjijloebfb","cohort":"","status":"ok","cohortname":""}]}}

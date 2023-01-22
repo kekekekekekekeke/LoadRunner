@@ -7,7 +7,7 @@ Registry settings:
 		default	yes
 	AUT
 		(Default)	
-		default	C:\Program Files\Google\Chrome\Application\chrome.exe --incognito http://localhost:1080/WebTours/
+		default	C:\Program Files (x86)\Internet Explorer\iexplore.exe http://localhost:1080/WebTours/
 	DebugFilter
 		(Default)	
 		default	off
@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\Andrey\Documents\VuGen\Scripts\git\UC1_BuyTiket\data\
+		default	G:\обучение\GitHub\LoadRunner\Scripts\UC6_BuyTicketRemoval\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

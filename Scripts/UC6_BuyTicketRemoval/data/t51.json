@@ -1,6 +1,1 @@
-)]}'
-
-204
-[["wrb.fr","AVdN8","[[[\"выбор времени\",\"timing\"],[\"выбор всегда есть\",\"there is always a choice\"]],\"ru\",\"en\"]",null,null,null,"generic"],["di",70],["af.httprm",70,"-4170918370463198252",23]]
-25
-[["e",4,null,null,267]]
+{"Critiques":[{"TraceId":"a72f0da5-08d9-411d-aa91-832e4512761d","CategoryTitle":"Орфография","LanguageId":null,"TileId":"ru","RevisionId":"0","BucketId":0,"SupportedActions":22,"Status":1,"Tag":0,"Suggestions":[{"Text":"Нет ни одного предложения","Description":"[Синонимы отсутствуют]","ConfidenceLevel":0,"Source":0,"Action":0,"BucketId":0,"NumberOfInstances":0}],"Metadata":[],"Context":"jojo","Start":0,"StartInContext":0,"Length":4,"Priority":0,"TypeId":"363d7011-83dd-4cc0-bdec-ea4af4df4dbb","ExplanationTitle":"Орфография","ExplanationLabel":null,"Explanation":null}],"SelectedLanguages":null,"ResponseStatus":0}

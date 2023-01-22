@@ -1,0 +1,43 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2021.0.0.0
+Path=C:\Users\Andrey\Documents\Controller\scenario\Scenario2.lrs
+Subject=Scenario2
+Result_file=G:\обучение\GitHub\LoadRunner\Results\res0\res0.lrr
+Description=
+ResultName=res0
+Time_Zone=-10800
+Start_time=1673818487
+Daylight_Bias=0
+Stop_time=1673819991
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize all Vusers simultaneously
+Global Schedule=ST10_1E15;R1320;SP10;
+[Scripts]
+UC4_BuyTicket=C:\Users\Andrey\Documents\VuGen\Scripts\UC4_BuyTicket\UC4_BuyTicket.usr
+UC2_LoginLogout=C:\Users\Andrey\Documents\VuGen\Scripts\UC2_LoginLogout\UC2_LoginLogout.usr
+UC7_RegNewUser=C:\Users\Andrey\Documents\VuGen\Scripts\UC7_RegNewUser\UC7_RegNewUser.usr
+UC5_Itinerary=C:\Users\Andrey\Documents\VuGen\Scripts\UC5_Itinerary\UC5_Itinerary.usr
+UC3_BuyTicketNoPay=C:\Users\Andrey\Documents\VuGen\Scripts\UC3_BuyTicketNoPay\UC3_BuyTicketNoPay.usr
+UC6_BuyTicketRemoval=C:\Users\Andrey\Documents\VuGen\Scripts\UC6_BuyTicketRemoval\UC6_BuyTicketRemoval.usr
+[Scripts_types]
+UC4_BuyTicket=Multi+QTWeb
+UC2_LoginLogout=Multi+QTWeb
+UC7_RegNewUser=Multi+QTWeb
+UC5_Itinerary=Multi+QTWeb
+UC3_BuyTicketNoPay=Multi+QTWeb
+UC6_BuyTicketRemoval=Multi+QTWeb

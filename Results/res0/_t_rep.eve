@@ -1,0 +1,53 @@
+28 11 1673818487 2 178417448 -489443697 1699668
+28 4 UC2_LoginLogout 1 1673818488 0 UC2_LoginLogout localhost 0 1
+28 10 localhost 28 0 0
+28 4 UC2_LoginLogout 2 1673818488 0 UC2_LoginLogout localhost 0 1
+28 0 UC2_LoginLogout 2 1673818488 0 localhost 0
+28 8 UC2_LoginLogout 2  0 0
+28 0 UC2_LoginLogout 1 1673818488 0 localhost 0
+28 8 UC2_LoginLogout 1  0 0
+28 4 UC3_BuyTicketNoPay 1 1673818488 0 UC3_BuyTicketNoPay localhost 0 1
+28 4 UC3_BuyTicketNoPay 2 1673818488 0 UC3_BuyTicketNoPay localhost 0 1
+28 0 UC3_BuyTicketNoPay 1 1673818488 0 localhost 0
+28 8 UC3_BuyTicketNoPay 1  0 0
+28 0 UC3_BuyTicketNoPay 2 1673818488 0 localhost 0
+28 8 UC3_BuyTicketNoPay 2  0 0
+28 4 UC4_BuyTicket 1 1673818488 0 UC4_BuyTicket localhost 0 1
+28 4 UC4_BuyTicket 2 1673818488 0 UC4_BuyTicket localhost 0 1
+28 0 UC4_BuyTicket 1 1673818488 0 localhost 0
+28 8 UC4_BuyTicket 1  0 0
+28 0 UC4_BuyTicket 2 1673818488 0 localhost 0
+28 8 UC4_BuyTicket 2  0 0
+28 4 UC5_Itinerary 1 1673818488 0 UC5_Itinerary localhost 0 1
+28 0 UC5_Itinerary 1 1673818488 0 localhost 0
+28 8 UC5_Itinerary 1  0 0
+28 4 UC6_BuyTicketRemoval 1 1673818488 0 UC6_BuyTicketRemoval localhost 0 1
+28 4 UC7_RegNewUser 1 1673818488 0 UC7_RegNewUser localhost 0 1
+28 4 UC7_RegNewUser 2 1673818488 0 UC7_RegNewUser localhost 0 1
+28 0 UC6_BuyTicketRemoval 1 1673818488 0 localhost 0
+28 8 UC6_BuyTicketRemoval 1  0 0
+28 0 UC7_RegNewUser 2 1673818488 0 localhost 0
+28 8 UC7_RegNewUser 2  0 0
+28 0 UC7_RegNewUser 1 1673818488 0 localhost 0
+28 8 UC7_RegNewUser 1  0 0
+28 2 UC4_BuyTicket 1 1673818488 0 p 0 0
+28 2 UC2_LoginLogout 1 1673818503 0 p 0 0
+28 2 UC7_RegNewUser 1 1673818518 0 p 0 0
+28 2 UC3_BuyTicketNoPay 1 1673818533 0 p 0 0
+28 2 UC5_Itinerary 1 1673818548 0 p 0 0
+28 2 UC6_BuyTicketRemoval 1 1673818563 0 p 0 0
+28 2 UC7_RegNewUser 2 1673818579 0 p 0 0
+28 2 UC2_LoginLogout 2 1673818594 0 p 0 0
+28 2 UC4_BuyTicket 2 1673818609 0 p 0 0
+28 2 UC3_BuyTicketNoPay 2 1673818624 0 p 0 0
+28 1 UC3_BuyTicketNoPay 1 1673819944 0 2
+28 1 UC7_RegNewUser 2 1673819944 0 2
+28 1 UC5_Itinerary 1 1673819944 0 2
+28 1 UC2_LoginLogout 2 1673819944 0 2
+28 1 UC4_BuyTicket 2 1673819944 0 2
+28 1 UC3_BuyTicketNoPay 2 1673819944 0 2
+28 1 UC4_BuyTicket 1 1673819944 0 2
+28 1 UC2_LoginLogout 1 1673819944 0 2
+28 1 UC7_RegNewUser 1 1673819945 0 2
+28 1 UC6_BuyTicketRemoval 1 1673819990 0 2
+28 12 1673819991 1 1673819991 0 1673819991
